@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "CloudCenter.IdentityServer4": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Account/login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5001"
+    }
+  }
+}
