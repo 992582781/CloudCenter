@@ -71,6 +71,7 @@ namespace CloudCenter.APi
                 endpoints.MapDefaultControllerRoute();
                 //endpoints.MapDefaultControllerRoute().RequireAuthorization("ApiScope"); // adds scope
             });
+            //Consul×¢²á
             app.UseConsul();
         }
 

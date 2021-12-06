@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.APi", "CloudCenter.APi\CloudCenter.APi.csproj", "{EB8887B2-F708-41B2-8C6E-D83D944FDE57}"
 EndProject
@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.APIGateway", "CloudCenter.APIGateway\CloudCenter.APIGateway.csproj", "{B8842975-D6B6-40D7-ADA6-30C220728159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCenter.MVC_CMS", "CloudCenter.MVC_CMS\CloudCenter.MVC_CMS.csproj", "{C7773E2F-78DB-4CCF-9EA9-074C42DDE490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.MVC_CMS", "CloudCenter.MVC_CMS\CloudCenter.MVC_CMS.csproj", "{C7773E2F-78DB-4CCF-9EA9-074C42DDE490}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.APi_CMS", "CloudCenter.APi_CMS\CloudCenter.APi_CMS.csproj", "{9E36E8FA-D120-47EF-9472-C8A1A8953867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{C7773E2F-78DB-4CCF-9EA9-074C42DDE490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7773E2F-78DB-4CCF-9EA9-074C42DDE490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7773E2F-78DB-4CCF-9EA9-074C42DDE490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E36E8FA-D120-47EF-9472-C8A1A8953867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E36E8FA-D120-47EF-9472-C8A1A8953867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E36E8FA-D120-47EF-9472-C8A1A8953867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E36E8FA-D120-47EF-9472-C8A1A8953867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{45BC09D3-EC89-4861-B99D-AB9CCE6946BC} = {70368919-D829-436A-8F31-10AC145DED54}
 		{B8842975-D6B6-40D7-ADA6-30C220728159} = {937EFCA1-76D9-4D6D-A17B-391862B33638}
 		{C7773E2F-78DB-4CCF-9EA9-074C42DDE490} = {70368919-D829-436A-8F31-10AC145DED54}
+		{9E36E8FA-D120-47EF-9472-C8A1A8953867} = {97DA5571-8A7D-4AC6-AEE9-4861683ED8AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E11879DA-0BC3-4148-83E9-CAF9D58E6345}

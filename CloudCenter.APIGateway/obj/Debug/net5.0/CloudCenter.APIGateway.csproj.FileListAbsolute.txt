@@ -54,4 +54,3 @@ D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\obj\Debug\net5.0\CloudCe
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\obj\Debug\net5.0\CloudCenter.APIGateway.genruntimeconfig.cache
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\obj\Debug\net5.0\CloudCenter.APIGateway.csproj.AssemblyReference.cache
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\Ocelot.json
-D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\obj\Debug\net5.0\CloudCenter.APIGateway.csproj.CopyComplete

@@ -86,5 +86,4 @@ D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.AP
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Autofac.dll
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Consul.dll
-D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.csproj.AssemblyReference.cache
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.csproj.CopyComplete

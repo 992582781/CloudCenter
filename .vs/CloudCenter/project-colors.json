@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eb8887b2-f708-41b2-8c6e-d83d944fde57": {
+      "ProjectGuid": "eb8887b2-f708-41b2-8c6e-d83d944fde57",
+      "DisplayName": "CloudCenter.APi",
+      "ColorIndex": 0
+    },
+    "1e24f63c-9dd9-43cb-8692-20afa1634625": {
+      "ProjectGuid": "1e24f63c-9dd9-43cb-8692-20afa1634625",
+      "DisplayName": "CloudCenter.IdentityServer4",
+      "ColorIndex": 1
+    },
+    "b8842975-d6b6-40d7-ada6-30c220728159": {
+      "ProjectGuid": "b8842975-d6b6-40d7-ada6-30c220728159",
+      "DisplayName": "CloudCenter.APIGateway",
+      "ColorIndex": 2
+    },
+    "9e36e8fa-d120-47ef-9472-c8a1a8953867": {
+      "ProjectGuid": "9e36e8fa-d120-47ef-9472-c8a1a8953867",
+      "DisplayName": "CloudCenter.APi_CMS",
+      "ColorIndex": 3
+    },
+    "45bc09d3-ec89-4861-b99d-ab9cce6946bc": {
+      "ProjectGuid": "45bc09d3-ec89-4861-b99d-ab9cce6946bc",
+      "DisplayName": "CloudCenter.MVC",
+      "ColorIndex": 4
+    },
+    "c7773e2f-78db-4ccf-9ea9-074c42dde490": {
+      "ProjectGuid": "c7773e2f-78db-4ccf-9ea9-074c42dde490",
+      "DisplayName": "CloudCenter.MVC_CMS",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

@@ -15,7 +15,7 @@ namespace CloudCenter.APi.Controller
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "5003", "5003" };
         }
 
         // GET api/<HomeController1>/5

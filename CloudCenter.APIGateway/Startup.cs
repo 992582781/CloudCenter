@@ -31,46 +31,32 @@ namespace CloudCenter.APIGateway
             // 然后Ocelot拿着这个AccessToken去Ids4Center验证合法性，
             // 如果验证通过就把请求转发到CloudCenter.APi应用处理
             #region Identity4
-            var authenticationProviderKey = "APIGateway";//AuthenticationProviderKey": "APIGateway"
-            services.AddAuthentication("Bearer")
-                   .AddIdentityServerAuthentication(authenticationProviderKey, O =>
-                   {
-                       O.Authority = "http://localhost:5001";
-                       O.ApiName = "CloudCenter.APi";//资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
-                       O.SupportedTokens = SupportedTokens.Both;
-                       O.ApiSecret = "CloudCenter";
-                       O.RequireHttpsMetadata = false;//是否启用https
-                   });
+            //var authenticationProviderKey = "APIGateway";//AuthenticationProviderKey": "APIGateway"
+            //services.AddAuthentication("Bearer")
+            //       .AddIdentityServerAuthentication(authenticationProviderKey, O =>
+            //       {
+            //           O.Authority = "http://localhost:5001";
+            //           O.ApiName = "CloudCenter.APi";//资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
+            //           O.SupportedTokens = SupportedTokens.Both;
+            //           O.ApiSecret = "CloudCenter";
+            //           O.RequireHttpsMetadata = false;//是否启用https
+            //       });
             #endregion
-            services.AddOcelot()
-                .AddConsul();
-            //services.AddOcelot().AddConsul()
-            //    .AddCacheManager(m =>
-            //    {
-            //        m.WithDictionaryHandle();//默认字典存储
-            //    })
-            //    .AddPolly();
+            services.AddOcelot().AddConsul()
+               .AddCacheManager(m =>
+               {
+                   m.WithDictionaryHandle();//默认字典存储
+                })
+               .AddPolly();
             ////services.AddControllers();
 
             ////这里的IOcelotCache<CachedResponse>是默认缓存的约束--准备替换成自定义的
-            //services.AddSingleton<IOcelotCache<CachedResponse>, CustomeCache>();
+            services.AddSingleton<IOcelotCache<CachedResponse>, CustomeCache>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //将默认的请求管道全部丢掉
-            //if (env.IsDevelopment())
-            //{
-            //    app.UseDeveloperExceptionPage();
-            //}
-            //else
-            //{
-            //    app.UseHsts();
-            //}
-
-            //app.UseHttpsRedirection();
-            //app.UseMvc();
             app.UseOcelot();
         }
     }
