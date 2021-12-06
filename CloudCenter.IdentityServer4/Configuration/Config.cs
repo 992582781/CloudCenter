@@ -84,9 +84,9 @@ namespace CloudCenter.IdentityServer4.Configuration
                     ClientId = "CloudCenter.MVC",
                     ClientName = "CloudCenter.MVC",
                     //指定允许令牌或授权码返回的地址（URL）
-                    RedirectUris={ "http://localhost:5002/signin-oidc", "http://localhost:5005/signin-oidc" },
+                    RedirectUris={ "http://127.0.0.1:5002/signin-oidc", "http://127.0.0.1:5005/signin-oidc" },
                      //指定允许注销后返回的地址(URL)，这里写两个客户端
-                    PostLogoutRedirectUris={ "http://localhost:5002/signout-callback-oidc", "http://localhost:5005/signout-callback-oidc" },
+                    PostLogoutRedirectUris={ "http://127.0.0.1:5002/signout-callback-oidc", "http://127.0.0.1:5005/signout-callback-oidc" },
                     //ClientSecrets = { new Secret("CloudCenter.MVC_Secret".Sha256()) },
                     AllowedScopes = {
                             IdentityServerConstants.StandardScopes.OpenId,
@@ -111,8 +111,8 @@ namespace CloudCenter.IdentityServer4.Configuration
                     ClientId = "CloudCenter.APi",
                     ClientName = "CloudCenter.APi Swagger UI",
                     ClientSecrets = { new Secret("CloudCenter".Sha256()) },
-                    RedirectUris = { $"http://localhost:5003/swagger/oauth2-redirect.html" },
-                    PostLogoutRedirectUris = { $"http://localhost:5003/swagger/" },
+                    RedirectUris = { $"http://127.0.0.1:5003/swagger/oauth2-redirect.html" },
+                    PostLogoutRedirectUris = { $"http://127.0.0.1:5003/swagger/" },
                     AllowedScopes =
                     {
                         "CloudCenter.APi"

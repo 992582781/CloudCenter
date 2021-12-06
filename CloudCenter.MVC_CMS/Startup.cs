@@ -30,8 +30,8 @@ namespace CloudCenter.MVC_CMS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            var identityUrl = "http://localhost:5001";//IdentityServer4地址
-            var callBackUrl = "http://localhost:5005";//本站地址
+            var identityUrl = "http://127.0.0.1:5001";//IdentityServer4地址
+            var callBackUrl = "http://127.0.0.1:5005";//本站地址
             #region MVC client
             //关闭了 JWT 身份信息类型映射
             //这样就允许 well-known 身份信息（比如，“sub” 和 “idp”）无干扰地流过。

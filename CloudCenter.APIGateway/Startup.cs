@@ -35,7 +35,7 @@ namespace CloudCenter.APIGateway
             //services.AddAuthentication("Bearer")
             //       .AddIdentityServerAuthentication(authenticationProviderKey, O =>
             //       {
-            //           O.Authority = "http://localhost:5001";
+            //           O.Authority = "http://127.0.0.1:5001";
             //           O.ApiName = "CloudCenter.APi";//资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
             //           O.SupportedTokens = SupportedTokens.Both;
             //           O.ApiSecret = "CloudCenter";
