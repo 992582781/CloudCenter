@@ -111,8 +111,8 @@ namespace CloudCenter.IdentityServer4.Configuration
                     ClientId = "CloudCenter.APi",
                     ClientName = "CloudCenter.APi Swagger UI",
                     ClientSecrets = { new Secret("CloudCenter".Sha256()) },
-                    RedirectUris = { $"http://localhost:5003/swagger/oauth2-redirect.html" },
-                    PostLogoutRedirectUris = { $"http://localhost:5003/swagger/" },
+                    RedirectUris = { $"http://localhost:5003/swagger/oauth2-redirect.html","http://localhost:5004/swagger/oauth2-redirect.html" },
+                    PostLogoutRedirectUris = { $"http://localhost:5003/swagger/",$"http://localhost:5004/swagger/" },
                     AllowedScopes =
                     {
                         "CloudCenter.APi"

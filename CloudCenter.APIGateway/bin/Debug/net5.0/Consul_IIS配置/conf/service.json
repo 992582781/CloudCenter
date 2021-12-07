@@ -1,0 +1,41 @@
+{
+  "encrypt": "7TnJPB4lKtjEcCWWjN6jSA==",
+  "services": [
+    {
+      "id": "CloudCenter.APi",
+      "name": "CloudCenter",
+      "tags": [ "CloudCenter.APi" ],
+      "address": "127.0.0.1",
+      "port": 5003,
+      "checks": [
+        {
+          "id": "CloudCenter.APi_Check",
+          "name": "CloudCenter.APi_Check",
+          "http": "http://127.0.0.1:5003/HealthCheck",
+          "interval": "10s",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "timeout": "1s"
+        }
+      ]
+    },
+    {
+      "id": "CloudCenter.APi_CMS",
+      "name": "CloudCenter",
+      "tags": [ "CloudCenter.APi_CMS" ],
+      "address": "127.0.0.1",
+      "port": 5004,
+      "checks": [
+        {
+          "id": "CloudCenter.APi_CMS_Check",
+          "name": "CloudCenter.APi_CMS_Check",
+          "http": "http://127.0.0.1:5004/HealthCheck",
+          "interval": "10s",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "timeout": "1s"
+        }
+      ]
+    }
+  ]
+}

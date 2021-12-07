@@ -6,11 +6,11 @@
       "DownstreamScheme": "http", //下游http协议
       "DownstreamHostAndPorts": [
         {
-          "host": "10.0.194.104",
+          "host": "localhost",
           "port": 5003
         },
         {
-          "host": "10.0.194.104",
+          "host": "localhost",
           "port": 5004
         }
       ],
@@ -53,10 +53,10 @@
     但是前面有一个Nginx绑定了域名http://api.edisonchou.cn，
     那这里我们的BaseUrl就是 http://api.edisonchou.cn。
     */
-    "BaseUrl": "http://10.0.194.104:4000",
+    "BaseUrl": "http://localhost:4000",
     "ServiceDiscoveryProvider": {
       //Consul地址
-      "Host": "10.0.194.104",
+      "Host": "localhost",
       //Consul端口
       "Port": 8500,
       "Type": "Consul" //由Consul提供服务发现，每次请求Consul

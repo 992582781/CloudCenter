@@ -8,3 +8,38 @@
 2021-12-07 22:00:42.8821 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
 2021-12-07 22:01:03.6754 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
 2021-12-07 22:01:03.6843 | Showing login: User is not authenticated 
+2021-12-07 22:03:37.6627 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 22:03:37.7795 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 22:03:37.8285 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 22:03:39.5053 | Now listening on: http://localhost:5001 
+2021-12-07 22:03:39.5214 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 22:03:39.5420 | Hosting environment: Development 
+2021-12-07 22:03:39.5420 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 22:03:52.0945 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-07 22:03:52.4147 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-07 22:03:52.6850 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 22:03:52.7459 | Showing login: User is not authenticated 
+2021-12-07 22:03:56.5473 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2021-12-07 22:04:02.0757 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-07 22:04:02.2974 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-07 22:04:02.4984 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 22:07:10.0013 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 22:07:10.0644 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/localhost:5004\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIyOjA3OjA5IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 22:07:31.2189 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 22:08:34.0744 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 22:08:34.2005 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 22:08:34.2231 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 22:08:34.4940 | Now listening on: http://localhost:5001 
+2021-12-07 22:08:34.4970 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 22:08:34.4970 | Hosting environment: Development 
+2021-12-07 22:08:34.4970 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 22:08:46.2805 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 22:08:46.4050 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/localhost:5004\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIyOjA4OjQ2IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 22:15:08.4285 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 22:15:08.4883 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 22:15:08.4984 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 22:15:08.7388 | Now listening on: http://localhost:5001 
+2021-12-07 22:15:08.7388 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 22:15:08.7458 | Hosting environment: Development 
+2021-12-07 22:15:08.7458 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 22:15:36.8975 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
