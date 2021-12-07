@@ -42,4 +42,5 @@ D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\Clo
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\CloudCenter.APi_CMS.dll
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\CloudCenter.APi_CMS.pdb
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\CloudCenter.APi_CMS.genruntimeconfig.cache
+D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\CloudCenter.APi_CMS.csproj.AssemblyReference.cache
 D:\Study\CloudCenter\CloudCenter\CloudCenter.APi_CMS\obj\Debug\netcoreapp3.1\CloudCenter.APi_CMS.csproj.CopyComplete

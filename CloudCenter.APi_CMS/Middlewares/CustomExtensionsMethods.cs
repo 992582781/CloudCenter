@@ -39,8 +39,8 @@ namespace CloudCenter.APi_CMS.Middlewares
                     {
                         Implicit = new OpenApiOAuthFlow()
                         {
-                            AuthorizationUrl = new Uri($"http://127.0.0.1:5001/connect/authorize"),
-                            TokenUrl = new Uri($"http://127.0.0.1:5001/connect/token"),
+                            AuthorizationUrl = new Uri($"http://localhost:5001/connect/authorize"),
+                            TokenUrl = new Uri($"http://localhost:5001/connect/token"),
                             Scopes = new Dictionary<string, string>()
                         {
                             { "CloudCenter.APi", "CloudCenter.APi API" }
@@ -61,7 +61,7 @@ namespace CloudCenter.APi_CMS.Middlewares
             //这个身份信息类型映射的“清理”必须在调用 AddAuthentication()之前完成
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             //JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
-            var identityUrl = "http://127.0.0.1:5001";
+            var identityUrl = "http://localhost:5001";
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -79,7 +79,7 @@ namespace CloudCenter.APi_CMS.Middlewares
             //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             //  .AddIdentityServerAuthentication(JwtBearerDefaults.AuthenticationScheme, options =>
             //  {
-            //      options.Authority = "http://127.0.0.1:5001";
+            //      options.Authority = "http://localhost:5001";
             //      options.RequireHttpsMetadata = false;
             //      options.ApiName = "api1";
             //      options.ApiSecret = "apipwd"; //对应ApiResources中的密钥
@@ -93,7 +93,7 @@ namespace CloudCenter.APi_CMS.Middlewares
             //   .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
             //   {
             //       // IdentityServer 地址
-            //       options.Authority = "http://127.0.0.1:5001";
+            //       options.Authority = "http://localhost:5001";
             //       //不需要https
             //       options.RequireHttpsMetadata = false;
             //       //这里要和 IdentityServer 定义的 api1 保持一致
@@ -107,7 +107,7 @@ namespace CloudCenter.APi_CMS.Middlewares
             //services.AddAuthentication("Bearer")
             //   .AddJwtBearer("Bearer", options =>
             //   {
-            //       options.Authority = "http://127.0.0.1:5001";
+            //       options.Authority = "http://localhost:5001";
             //       options.RequireHttpsMetadata = false;
             //       options.TokenValidationParameters = new TokenValidationParameters
             //       {

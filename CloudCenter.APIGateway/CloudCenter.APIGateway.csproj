@@ -12,12 +12,6 @@
     <PackageReference Include="Ocelot.Provider.Polly" Version="17.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Consul_IIS配置\data\checks\" />
-    <Folder Include="Consul_IIS配置\data\raft\snapshots\" />
-    <Folder Include="Consul_IIS配置\data\services\" />
-  </ItemGroup>
-
   <ProjectExtensions><VisualStudio><UserProperties ocelot_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

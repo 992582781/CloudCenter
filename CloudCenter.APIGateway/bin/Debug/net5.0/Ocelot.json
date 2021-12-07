@@ -53,7 +53,7 @@
     但是前面有一个Nginx绑定了域名http://api.edisonchou.cn，
     那这里我们的BaseUrl就是 http://api.edisonchou.cn。
     */
-    "BaseUrl": "http://172.16.2.9:5200",
+    "BaseUrl": "http://10.0.194.104:4000",
     "ServiceDiscoveryProvider": {
       //Consul地址
       "Host": "10.0.194.104",

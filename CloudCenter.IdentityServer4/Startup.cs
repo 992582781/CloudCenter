@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using CloudCenter.IdentityServer4.Configuration;
@@ -11,19 +7,43 @@ using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using AspectCore;
+using AspectCore.Extensions.Autofac;
+using Microsoft.AspNetCore.HttpsPolicy;
+using System.Collections.Generic;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using CloudCenter.UnitOfWork;
+using CloudCenter.Infrastructure;
 
 namespace CloudCenter.IdentityServer4
 {
     public class Startup
     {
-        public static IContainer AutofacContainer;
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+       
         public void ConfigureServices(IServiceCollection services)
         {
+            services.TryAddSingleton<UnitOfWork.IUnitOfWork, UnitOfWork.UnitOfWork>();
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.TryAddSingleton<ICookie, Cookie>();//IOC配置 方便项目中使用
+
+            #region 注入cookie
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            #endregion
             services.AddControllersWithViews();
+
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 // in-memory, code config
@@ -38,8 +58,9 @@ namespace CloudCenter.IdentityServer4
 
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHttpContextAccessor accessor)
         {
+            IContext.Accessor = accessor;//全局使用
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -65,8 +86,19 @@ namespace CloudCenter.IdentityServer4
         /// <param name="builder"></param>
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            // 在这里添加服务注册
-            //builder.RegisterType<TopicService>();
+            //添加任何Autofac模块或注册。
+            //这是在ConfigureServices之后调用的，所以
+            //在此处注册将覆盖在ConfigureServices中注册的内容。
+            //在构建主机时必须调用“UseServiceProviderFactory（new AutofacServiceProviderFactory（））”`否则将不会调用此。
+
+            //builder.RegisterModule(new AutofacModuleRegister(Microsoft.DotNet.PlatformAbstractions.ApplicationEnvironment.ApplicationBasePath,
+            //    new List<string>()
+            //       { //批量构造函数注入
+            //                   "RongKang.Repository.dll","RongKang.UnitOfWork.dll"
+            //       }));
+
+
+            builder.RegisterDynamicProxy();
         }
     }
 }

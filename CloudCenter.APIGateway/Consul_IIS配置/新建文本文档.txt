@@ -1,5 +1,5 @@
-consul agent -dev   -client 10.0.194.104 -ui  指定ip可以访问
+consul agent -dev   -client 127.0.0.1 -ui  指定ip可以访问
 
-consul agent -server -bootstrap-expect=1 -bind=10.0.194.104 -client=10.0.194.104 -join=192.168.20.80 -datacenter=dc1 -data-dir=data -ui -node=consul-80
+consul agent -server -bootstrap-expect=1 -bind=127.0.0.1 -client=127.0.0.1 -join=192.168.20.80 -datacenter=dc1 -data-dir=data -ui -node=consul-80
 
-dotnet MySteelSoft.DataCetner.backend.Netcore.dll --ip 10.0.194.104 --port 9000
+dotnet MySteelSoft.DataCetner.backend.Netcore.dll --ip 127.0.0.1 --port 9000

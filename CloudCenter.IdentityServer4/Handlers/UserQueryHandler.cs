@@ -1,4 +1,5 @@
-﻿using CloudCenter.IdentityServer4.CommandAndQueries;
+﻿using CloudCenter.Aop;
+using CloudCenter.IdentityServer4.CommandAndQueries;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
@@ -17,6 +18,7 @@ namespace CloudCenter.IdentityServer4.Handlers
         {
             _logger = logger;
         }
+        //[Transactional]
         public Task<bool> Handle(UserQuery request, CancellationToken cancellationToken)
         {
             _logger.LogError("mediator过程开始");
