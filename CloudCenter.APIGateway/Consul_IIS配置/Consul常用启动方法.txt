@@ -1,0 +1,3 @@
+consul agent -dev   -client 10.0.194.104 -ui  指定ip可以访问
+
+consul agent -server -datacenter=dc1 -bootstrap -data-dir ./data -config-file ./conf -ui -node=10.0.194.104 -bind 10.0.194.104 -client=0.0.0.0

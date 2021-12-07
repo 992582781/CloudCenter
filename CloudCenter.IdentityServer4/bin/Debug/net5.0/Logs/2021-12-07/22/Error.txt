@@ -16,3 +16,9 @@
 {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/localhost:5004\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIyOjA4OjQ2IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
 2021-12-07 22:08:46.4050 | Request validation failed 
 2021-12-07 22:08:46.4050 | Request validation failed 
+2021-12-07 22:43:57.8531 | mediator开始 
+2021-12-07 22:43:57.8531 | mediator开始 
+2021-12-07 22:43:57.8988 | mediator过程开始 
+2021-12-07 22:43:57.8988 | mediator过程开始 
+2021-12-07 22:43:57.8988 | mediator结束 
+2021-12-07 22:43:57.8988 | mediator结束 
