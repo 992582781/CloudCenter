@@ -1,0 +1,12 @@
+D:\WorkSelf\CloudCenter\CloudCenter.Log\bin\Debug\net5.0\CloudCenter.Log.deps.json
+D:\WorkSelf\CloudCenter\CloudCenter.Log\bin\Debug\net5.0\CloudCenter.Log.dll
+D:\WorkSelf\CloudCenter\CloudCenter.Log\bin\Debug\net5.0\ref\CloudCenter.Log.dll
+D:\WorkSelf\CloudCenter\CloudCenter.Log\bin\Debug\net5.0\CloudCenter.Log.pdb
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.csproj.AssemblyReference.cache
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.AssemblyInfoInputs.cache
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.AssemblyInfo.cs
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.csproj.CoreCompileInputs.cache
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.dll
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\ref\CloudCenter.Log.dll
+D:\WorkSelf\CloudCenter\CloudCenter.Log\obj\Debug\net5.0\CloudCenter.Log.pdb

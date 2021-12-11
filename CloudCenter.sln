@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.APi", "CloudCenter.APi\CloudCenter.APi.csproj", "{EB8887B2-F708-41B2-8C6E-D83D944FDE57}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{357F7429-014F-432B-82E9-F54D8284832D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "JavaScriptClient\JavaScriptClient.csproj", "{67FD9F80-5629-4173-A552-A0DECEE76D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCenter.Log", "CloudCenter.Log\CloudCenter.Log.csproj", "{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{3CA26780-7B92-45A1-B8AC-4789D2C016CD} = {BCB882D8-F28B-4B7F-96C8-52993DEEE1D5}
 		{713B0AAB-E47B-4FE7-88F3-743A8DE52958} = {913345B2-A59F-4AC8-9147-880974A5F023}
 		{67FD9F80-5629-4173-A552-A0DECEE76D37} = {357F7429-014F-432B-82E9-F54D8284832D}
+		{7AC0DC8A-A6C1-4AD4-920E-8841E49A36AA} = {913345B2-A59F-4AC8-9147-880974A5F023}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E11879DA-0BC3-4148-83E9-CAF9D58E6345}

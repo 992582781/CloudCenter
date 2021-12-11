@@ -132,7 +132,6 @@ D:\WorkSelf\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Swashbuckle.AspNetCore.
 D:\WorkSelf\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\WorkSelf\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\WorkSelf\CloudCenter\CloudCenter.APi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.csproj.AssemblyReference.cache
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.AssemblyInfoInputs.cache
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.AssemblyInfo.cs

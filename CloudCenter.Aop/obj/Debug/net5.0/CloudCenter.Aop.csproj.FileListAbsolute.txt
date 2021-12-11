@@ -17,7 +17,9 @@ D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.Aop.deps.js
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.Aop.dll
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\ref\CloudCenter.Aop.dll
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.Aop.pdb
+D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.Log.dll
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.UnitOfWork.dll
+D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.Log.pdb
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\bin\Debug\net5.0\CloudCenter.UnitOfWork.pdb
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\obj\Debug\net5.0\CloudCenter.Aop.csproj.AssemblyReference.cache
 D:\WorkSelf\CloudCenter\CloudCenter.Aop\obj\Debug\net5.0\CloudCenter.Aop.GeneratedMSBuildEditorConfig.editorconfig

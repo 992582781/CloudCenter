@@ -40,7 +40,27 @@
       "ProjectGuid": "95ebd6bd-7701-415a-9c31-ca3ccea43dd3",
       "DisplayName": "CloudCenter.APi_CMS",
       "ColorIndex": 6
+    },
+    "67fd9f80-5629-4173-a552-a0decee76d37": {
+      "ProjectGuid": "67fd9f80-5629-4173-a552-a0decee76d37",
+      "DisplayName": "JavaScriptClient",
+      "ColorIndex": 7
+    },
+    "713b0aab-e47b-4fe7-88f3-743a8de52958": {
+      "ProjectGuid": "713b0aab-e47b-4fe7-88f3-743a8de52958",
+      "DisplayName": "CloudCenter.Infrastructure",
+      "ColorIndex": 8
+    },
+    "3ca26780-7b92-45a1-b8ac-4789d2c016cd": {
+      "ProjectGuid": "3ca26780-7b92-45a1-b8ac-4789d2c016cd",
+      "DisplayName": "CloudCenter.UnitOfWork",
+      "ColorIndex": 9
+    },
+    "b4fd9fbc-7789-4833-ad13-f1a9103d9791": {
+      "ProjectGuid": "b4fd9fbc-7789-4833-ad13-f1a9103d9791",
+      "DisplayName": "CloudCenter.Aop",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 11
 }

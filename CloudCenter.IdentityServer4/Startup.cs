@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using CloudCenter.UnitOfWork;
 using CloudCenter.Infrastructure;
+using CloudCenter.Log;
 
 namespace CloudCenter.IdentityServer4
 {

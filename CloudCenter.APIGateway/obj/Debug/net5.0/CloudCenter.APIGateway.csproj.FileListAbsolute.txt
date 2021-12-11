@@ -58,6 +58,7 @@ D:\Study\CloudCenter\CloudCenter\CloudCenter.APIGateway\obj\Debug\net5.0\CloudCe
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\appsettings.Development.json
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\appsettings.json
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\Consul_IIS配置\conf\service.json
+D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\Consul_IIS配置\service.json
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\Ocelot.json
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\CloudCenter.APIGateway.StaticWebAssets.xml
 D:\WorkSelf\CloudCenter\CloudCenter.APIGateway\bin\Debug\net5.0\CloudCenter.APIGateway.exe

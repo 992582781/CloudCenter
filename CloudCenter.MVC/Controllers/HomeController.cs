@@ -42,8 +42,6 @@ namespace CloudCenter.MVC.Controllers
         public IActionResult Privacy()
         {
             _logger.LogInformation($"[{_correlationContext.CorrelationContext.CorrelationId}]我是A");
-            _logger.LogInformation("Secure page");
-            _logger.LogError("Secure page");
             _logger.LogInformation($"[{HttpContext.TraceIdentifier}]我是B");
             _correlationIdClass.testc();
             ViewData["Message"] = "Secure page.";
