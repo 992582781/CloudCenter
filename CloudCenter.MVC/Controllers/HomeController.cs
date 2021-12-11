@@ -37,6 +37,8 @@ namespace CloudCenter.MVC.Controllers
         [Authorize]
         public IActionResult Privacy()
         {
+            _logger.LogInformation("Secure page");
+            _logger.LogError("Secure page");
             ViewData["Message"] = "Secure page.";
             return View();
         }

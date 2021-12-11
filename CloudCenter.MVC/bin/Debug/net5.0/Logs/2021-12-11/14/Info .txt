@@ -1,0 +1,5 @@
+2021-12-11 14:03:34.2278 | Application started. Press Ctrl+C to shut down. 
+2021-12-11 14:03:34.6042 | Hosting environment: Development 
+2021-12-11 14:03:38.6752 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.MVC 
+2021-12-11 14:03:57.7829 | Secure page 
+2021-12-11 14:04:48.3607 | Secure page 

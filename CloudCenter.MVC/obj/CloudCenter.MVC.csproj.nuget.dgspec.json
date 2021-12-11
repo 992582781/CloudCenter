@@ -56,6 +56,18 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.4, )"
+            },
+            "NLog.Targets.ElasticSearch": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
             }
           },
           "imports": [

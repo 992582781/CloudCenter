@@ -78,7 +78,6 @@ D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\bin\Debug\net5.0\Microsoft.IdentityM
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\obj\Debug\net5.0\CloudCenter.MVC_CMS.csproj.AssemblyReference.cache
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\obj\Debug\net5.0\CloudCenter.MVC_CMS.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\obj\Debug\net5.0\CloudCenter.MVC_CMS.AssemblyInfoInputs.cache
 D:\WorkSelf\CloudCenter\CloudCenter.MVC_CMS\obj\Debug\net5.0\CloudCenter.MVC_CMS.AssemblyInfo.cs
