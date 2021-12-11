@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using CloudCenter.MVC.Models;
+using CorrelationId.Abstractions;
 using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -23,10 +24,13 @@ namespace CloudCenter.MVC.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ICorrelationContextAccessor _correlationContext;
+        public readonly ICorrelationIdClass _correlationIdClass;
+        public HomeController(ILogger<HomeController> logger, ICorrelationContextAccessor correlationContext, ICorrelationIdClass correlationIdClass)
         {
             _logger = logger;
+            _correlationContext = correlationContext;
+            _correlationIdClass = correlationIdClass;
         }
 
         public IActionResult Index()
@@ -37,8 +41,11 @@ namespace CloudCenter.MVC.Controllers
         [Authorize]
         public IActionResult Privacy()
         {
+            _logger.LogInformation($"[{_correlationContext.CorrelationContext.CorrelationId}]我是A");
             _logger.LogInformation("Secure page");
             _logger.LogError("Secure page");
+            _logger.LogInformation($"[{HttpContext.TraceIdentifier}]我是B");
+            _correlationIdClass.testc();
             ViewData["Message"] = "Secure page.";
             return View();
         }

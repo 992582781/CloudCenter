@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using CloudCenter.MVC.Controllers;
 using CloudCenter.MVC.Extendsions;
+using CorrelationId;
+using CorrelationId.DependencyInjection;
+using CorrelationId.HttpClient;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -29,6 +33,19 @@ namespace CloudCenter.MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDefaultCorrelationId(options =>
+             {
+                 //options.CorrelationIdGenerator = () => "Foo";
+                 //options.AddToLoggingScope = true;
+                 //options.EnforceHeader = true;
+                 //options.IgnoreRequestHeader = false;
+                 //options.IncludeInResponse = true;
+                 //options.RequestHeader = "My-Custom-Correlation-Id";
+                 //options.ResponseHeader = "X-Correlation-Id";
+                 options.UpdateTraceIdentifier = true;
+             });
+            services.AddHttpClient("MyClient")
+           .AddCorrelationIdForwarding();
             services.AddControllersWithViews();
             var identityUrl = "http://localhost:5001";//IdentityServer4µÿ÷∑
             var callBackUrl = "http://localhost:5002";//±æ’æµÿ÷∑
@@ -86,6 +103,7 @@ namespace CloudCenter.MVC
                });
             #endregion
             services.ConfigureNonBreakingSameSiteCookies();
+            services.AddSingleton<ICorrelationIdClass, CorrelationIdClass>();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -105,7 +123,7 @@ namespace CloudCenter.MVC
             app.UseCookiePolicy();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseCorrelationId();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

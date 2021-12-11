@@ -320,3 +320,4 @@ D:\WorkSelf\CloudCenter\CloudCenter.MVC\bin\Debug\net5.0\NLog.Extensions.Logging
 D:\WorkSelf\CloudCenter\CloudCenter.MVC\bin\Debug\net5.0\NLog.Targets.ElasticSearch.dll
 D:\WorkSelf\CloudCenter\CloudCenter.MVC\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
 D:\WorkSelf\CloudCenter\CloudCenter.MVC\obj\Debug\net5.0\CloudCenter.MVC.csproj.AssemblyReference.cache
+D:\WorkSelf\CloudCenter\CloudCenter.MVC\bin\Debug\net5.0\CorrelationId.dll
