@@ -2,34 +2,34 @@
   "encrypt": "7TnJPB4lKtjEcCWWjN6jSA==",
   "services": [
     {
-      "id": "CloudCenter_127.0.0.1:5003",
+      "id": "CloudCenter_10.0.194.104:9000",
       "name": "CloudCenter",
-      "tags": [ "CloudCenter.APi" ],
-      "address": "127.0.0.1",
-      "port": 5003,
+      "tags": [ "CloudCenter9000" ],
+      "address": "10.0.194.104",
+      "port": 9000,
       "checks": [
         {
-          "id": "CloudCenter_127.0.0.1:5003",
+          "id": "CloudCenter_10.0.194.104:9000",
           "name": "CloudCenter",
-          "http": "http://127.0.0.1:5003/HealthCheck",
+          "http": "http://10.0.194.104:9000/HealthCheck",
           "interval": "10s",
           "tls_skip_verify": false,
           "method": "GET",
-          "timeout": "5s"
+          "timeout": "1s"
         }
       ]
     },
     {
-      "id": "CloudCenter_127.0.0.1:5004",
+      "id": "CloudCenter_10.0.194.104:9001",
       "name": "CloudCenter",
-      "tags": [ "CloudCenter.APi_CMS" ],
-      "address": "127.0.0.1",
-      "port": 5004,
+      "tags": [ "CloudCenter9001" ],
+      "address": "10.0.194.104",
+      "port": 9001,
       "checks": [
         {
-          "id": "CloudCenter_127.0.0.1:5004",
+          "id": "CloudCenter_10.0.194.104:9001",
           "name": "CloudCenter",
-          "http": "http://127.0.0.1:5004/HealthCheck",
+          "http": "http://10.0.194.104:9001/HealthCheck",
           "interval": "12s",
           "tls_skip_verify": false,
           "method": "GET",

@@ -1,3 +1,31 @@
-consul agent -dev   -client localhost -ui  指定ip可以访问
+consul agent -dev   -client 10.0.194.104 -ui  指定ip可以访问
+consul agent -server -datacenter=dc1 -bootstrap -data-dir ./data -config-file ./conf -ui -node=10.0.194.104 -bind 10.0.194.104 -client=0.0.0.0
 
-consul agent -server -datacenter=dc1 -bootstrap -data-dir ./data -config-file ./conf -ui -node=localhost -bind localhost -client=0.0.0.0
+配置系统服务  1、拷贝consul.exe的目录 如：D:\Consul\consule.exe
+
+2、以管理员身份启动命令提示符，执行
+
+sc.exe create "Consul" binPath="d:\Consul\consul.exe agent -dev"
+
+3、启动服务
+
+执行sc.exe start “Consul”
+
+4、删除服务
+
+执行sc delete “Consul”
+
+5、检查Consul服务是否正常使用：在浏览器中输入 http://localhost:8500
+ 
+ 
+echo.服务启动......  
+echo off  
+sc create Consul binpath="D:\Consul\consul.exe agent -server -ui -node=10.0.194.104 -bind 10.0.194.104 -client=0.0.0.0 -bootstrap-expect 1 -data-dir D:\Consul\data -config-file D:\Consul\conf"
+net start Consul
+sc config Consul start= AUTO  
+echo.Consul启动完毕！ 
+pause
+ 
+ 
+
+

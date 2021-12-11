@@ -1,1 +1,1 @@
-consul agent -server -datacenter=dc1 -bootstrap -data-dir ./data -config-file ./conf -ui -node=localhost -bind localhost -client=0.0.0.0
+consul agent -server -datacenter=dc1 -bootstrap -data-dir ./data -config-file ./conf -ui -node=10.0.194.104 -bind 10.0.194.104 -client=0.0.0.0
