@@ -15,8 +15,8 @@ namespace CloudCenter.IdentityServer4.Configuration
            new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile(),
-            };
+                new IdentityResources.Profile()
+           };
 
         /// <summary>
         /// 定义作用域
@@ -78,6 +78,26 @@ namespace CloudCenter.IdentityServer4.Configuration
         public static IEnumerable<Client> Clients =>
             new List<Client>
             {
+                // JavaScript Client
+                new Client
+                {
+                   ClientId = "js",
+                    ClientName = "JavaScript Client",
+                    AllowedGrantTypes = GrantTypes.Code,
+                    AllowAccessTokensViaBrowser = true,
+                    RequirePkce = false,
+                    RequireClientSecret = false,
+                    RequireConsent = false,
+                    RedirectUris =           { "http://localhost:7001/callback.html" },
+                    PostLogoutRedirectUris = { "http://localhost:7001/index.html" },
+                    AllowedCorsOrigins =     { "http://localhost:7001" },
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                         "CloudCenter.APi"
+                    },
+                },
                  new Client
                 {
 
@@ -91,12 +111,13 @@ namespace CloudCenter.IdentityServer4.Configuration
                     AllowedScopes = {
                             IdentityServerConstants.StandardScopes.OpenId,
                             IdentityServerConstants.StandardScopes.Profile,
+                            "CloudCenter.MVC"
                      },
-
-                    AllowedGrantTypes = GrantTypes.Implicit,
+                    ClientSecrets = { new Secret("CloudCenter.MVC_Secret".Sha256()) },
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
                     RequirePkce = false,//v4.x需要配置这个
                     //AllowedGrantTypes = GrantTypes.Code,
-                    //AlwaysIncludeUserClaimsInIdToken=true,
+                    AlwaysIncludeUserClaimsInIdToken=true,
                       //允许将token通过浏览器传递
                     AllowAccessTokensViaBrowser=true,
                      //如果不需要显示否同意授权 页面 这里就设置为false

@@ -31,16 +31,16 @@ namespace CloudCenter.APIGateway
             // 然后Ocelot拿着这个AccessToken去Ids4Center验证合法性，
             // 如果验证通过就把请求转发到CloudCenter.APi应用处理
             #region Identity4
-            //var authenticationProviderKey = "APIGateway";//AuthenticationProviderKey": "APIGateway"
-            //services.AddAuthentication("Bearer")
-            //       .AddIdentityServerAuthentication(authenticationProviderKey, O =>
-            //       {
-            //           O.Authority = "http://localhost:5001";
-            //           O.ApiName = "CloudCenter.APi";//资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
-            //           O.SupportedTokens = SupportedTokens.Both;
-            //           O.ApiSecret = "CloudCenter";
-            //           O.RequireHttpsMetadata = false;//是否启用https
-            //       });
+            var authenticationProviderKey = "APIGateway";//AuthenticationProviderKey": "APIGateway"
+            services.AddAuthentication()
+                   .AddIdentityServerAuthentication(authenticationProviderKey, O =>
+                   {
+                       O.Authority = "http://localhost:5001";
+                       O.ApiName = "CloudCenter.APi";//资源名称，跟认证服务中注册的资源列表名称中的apiResource一致
+                       O.SupportedTokens = SupportedTokens.Both;
+                       O.ApiSecret = "CloudCenter";
+                       O.RequireHttpsMetadata = false;//是否启用https
+                   });
             #endregion
             services.AddOcelot().AddConsul()
                .AddCacheManager(m =>

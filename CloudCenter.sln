@@ -25,15 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.APi_CMS", "Clou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOP", "AOP", "{0B38ECF0-92EA-41CD-81F0-086FCBAECF66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCenter.Aop", "CloudCenter.Aop\CloudCenter.Aop.csproj", "{B4FD9FBC-7789-4833-AD13-F1A9103D9791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.Aop", "CloudCenter.Aop\CloudCenter.Aop.csproj", "{B4FD9FBC-7789-4833-AD13-F1A9103D9791}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWork", "UnitOfWork", "{BCB882D8-F28B-4B7F-96C8-52993DEEE1D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCenter.UnitOfWork", "CloudCenter.UnitOfWork\CloudCenter.UnitOfWork.csproj", "{3CA26780-7B92-45A1-B8AC-4789D2C016CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.UnitOfWork", "CloudCenter.UnitOfWork\CloudCenter.UnitOfWork.csproj", "{3CA26780-7B92-45A1-B8AC-4789D2C016CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{913345B2-A59F-4AC8-9147-880974A5F023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCenter.Infrastructure", "CloudCenter.Infrastructure\CloudCenter.Infrastructure.csproj", "{713B0AAB-E47B-4FE7-88F3-743A8DE52958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCenter.Infrastructure", "CloudCenter.Infrastructure\CloudCenter.Infrastructure.csproj", "{713B0AAB-E47B-4FE7-88F3-743A8DE52958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{357F7429-014F-432B-82E9-F54D8284832D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "JavaScriptClient\JavaScriptClient.csproj", "{67FD9F80-5629-4173-A552-A0DECEE76D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +81,10 @@ Global
 		{713B0AAB-E47B-4FE7-88F3-743A8DE52958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713B0AAB-E47B-4FE7-88F3-743A8DE52958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713B0AAB-E47B-4FE7-88F3-743A8DE52958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FD9F80-5629-4173-A552-A0DECEE76D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{B4FD9FBC-7789-4833-AD13-F1A9103D9791} = {0B38ECF0-92EA-41CD-81F0-086FCBAECF66}
 		{3CA26780-7B92-45A1-B8AC-4789D2C016CD} = {BCB882D8-F28B-4B7F-96C8-52993DEEE1D5}
 		{713B0AAB-E47B-4FE7-88F3-743A8DE52958} = {913345B2-A59F-4AC8-9147-880974A5F023}
+		{67FD9F80-5629-4173-A552-A0DECEE76D37} = {357F7429-014F-432B-82E9-F54D8284832D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E11879DA-0BC3-4148-83E9-CAF9D58E6345}

@@ -1,0 +1,328 @@
+2021-12-09 14:02:21.2808 | mediator开始 
+2021-12-09 14:02:21.2808 | mediator开始 
+2021-12-09 14:02:22.0572 | mediator过程开始 
+2021-12-09 14:02:22.0572 | mediator过程开始 
+2021-12-09 14:02:22.0597 | mediator结束 
+2021-12-09 14:02:22.0597 | mediator结束 
+2021-12-09 14:03:34.7311 | mediator开始 
+2021-12-09 14:03:34.7311 | mediator开始 
+2021-12-09 14:03:35.4409 | mediator过程开始 
+2021-12-09 14:03:35.4409 | mediator过程开始 
+2021-12-09 14:03:35.4409 | mediator结束 
+2021-12-09 14:03:35.4409 | mediator结束 
+2021-12-09 14:05:27.8898 | mediator开始 
+2021-12-09 14:05:27.8898 | mediator开始 
+2021-12-09 14:05:28.6054 | mediator过程开始 
+2021-12-09 14:05:28.6054 | mediator过程开始 
+2021-12-09 14:05:28.6192 | mediator结束 
+2021-12-09 14:05:28.6192 | mediator结束 
+2021-12-09 14:09:05.3150 | mediator开始 
+2021-12-09 14:09:05.3150 | mediator开始 
+2021-12-09 14:09:06.0998 | mediator过程开始 
+2021-12-09 14:09:06.0998 | mediator过程开始 
+2021-12-09 14:09:06.0998 | mediator结束 
+2021-12-09 14:09:06.0998 | mediator结束 
+2021-12-09 14:10:23.9014 | mediator开始 
+2021-12-09 14:10:23.9014 | mediator开始 
+2021-12-09 14:10:24.6390 | mediator过程开始 
+2021-12-09 14:10:24.6390 | mediator过程开始 
+2021-12-09 14:10:24.6390 | mediator结束 
+2021-12-09 14:10:24.6390 | mediator结束 
+2021-12-09 14:11:37.2304 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:11:37.2304 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:12:03.2477 | mediator开始 
+2021-12-09 14:12:03.2477 | mediator开始 
+2021-12-09 14:12:03.9747 | mediator过程开始 
+2021-12-09 14:12:03.9747 | mediator过程开始 
+2021-12-09 14:12:03.9747 | mediator结束 
+2021-12-09 14:12:03.9747 | mediator结束 
+2021-12-09 14:17:57.6890 | mediator开始 
+2021-12-09 14:17:57.6890 | mediator开始 
+2021-12-09 14:17:59.1789 | mediator过程开始 
+2021-12-09 14:17:59.1789 | mediator过程开始 
+2021-12-09 14:17:59.1789 | mediator结束 
+2021-12-09 14:17:59.1789 | mediator结束 
+2021-12-09 14:28:36.2023 | Invalid grant type for client: "hybrid"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5005\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "ResponseType":"code id_token", "ResponseMode":"form_post", "GrantType":"hybrid", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt2QkhL4aqy8Hr2QATu5iOO0XWDMD4UksoYwaPTTkXOZaX4WWlrcYZt4gbFyu19CRL49g5xtcgoJVXgd5TBAsZjnKKWXhg3mlWNbcjAxumNoccVNqiugip_a7Mzceob3TUosl4mdNkxmRKmg0xWK_0_AGTx6ohUxz8RBUemqRnNqa8uCcZLXrD8DYakzK29k1xqU5zrtBt1hKqezkYnA2-os07EIwPpmZWntXLd6HwtZFNBTYB5WdhiAhKXtOb9ZfDT3kMjh1LWcRuLSfWtwvU_sX5POgGBqJajgxuCDU289RQ", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281160234684.MDM0NWNlMzAtNjc3My00NWZjLTkxNzUtYzczYzU3MzRhZmE5ZDIwNWNkMDEtZDA4YS00NDNmLThjMTQtMWIzMjliZmZjZDA0","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt2QkhL4aqy8Hr2QATu5iOO0XWDMD4UksoYwaPTTkXOZaX4WWlrcYZt4gbFyu19CRL49g5xtcgoJVXgd5TBAsZjnKKWXhg3mlWNbcjAxumNoccVNqiugip_a7Mzceob3TUosl4mdNkxmRKmg0xWK_0_AGTx6ohUxz8RBUemqRnNqa8uCcZLXrD8DYakzK29k1xqU5zrtBt1hKqezkYnA2-os07EIwPpmZWntXLd6HwtZFNBTYB5WdhiAhKXtOb9ZfDT3kMjh1LWcRuLSfWtwvU_sX5POgGBqJajgxuCDU289RQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:28:36.2023 | Invalid grant type for client: "hybrid"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5005\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "ResponseType":"code id_token", "ResponseMode":"form_post", "GrantType":"hybrid", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt2QkhL4aqy8Hr2QATu5iOO0XWDMD4UksoYwaPTTkXOZaX4WWlrcYZt4gbFyu19CRL49g5xtcgoJVXgd5TBAsZjnKKWXhg3mlWNbcjAxumNoccVNqiugip_a7Mzceob3TUosl4mdNkxmRKmg0xWK_0_AGTx6ohUxz8RBUemqRnNqa8uCcZLXrD8DYakzK29k1xqU5zrtBt1hKqezkYnA2-os07EIwPpmZWntXLd6HwtZFNBTYB5WdhiAhKXtOb9ZfDT3kMjh1LWcRuLSfWtwvU_sX5POgGBqJajgxuCDU289RQ", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281160234684.MDM0NWNlMzAtNjc3My00NWZjLTkxNzUtYzczYzU3MzRhZmE5ZDIwNWNkMDEtZDA4YS00NDNmLThjMTQtMWIzMjliZmZjZDA0","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt2QkhL4aqy8Hr2QATu5iOO0XWDMD4UksoYwaPTTkXOZaX4WWlrcYZt4gbFyu19CRL49g5xtcgoJVXgd5TBAsZjnKKWXhg3mlWNbcjAxumNoccVNqiugip_a7Mzceob3TUosl4mdNkxmRKmg0xWK_0_AGTx6ohUxz8RBUemqRnNqa8uCcZLXrD8DYakzK29k1xqU5zrtBt1hKqezkYnA2-os07EIwPpmZWntXLd6HwtZFNBTYB5WdhiAhKXtOb9ZfDT3kMjh1LWcRuLSfWtwvU_sX5POgGBqJajgxuCDU289RQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:28:36.2242 | Request validation failed 
+2021-12-09 14:28:36.2242 | Request validation failed 
+2021-12-09 14:28:53.0289 | Invalid grant type for client: "hybrid"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5005\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "ResponseType":"code id_token", "ResponseMode":"form_post", "GrantType":"hybrid", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3O1QxzE979r6OSIKR5NunNcT1kbahbpI-OB8pCMtth6GxJhPMbaFKtUKs0jcMWgR-IlB-aYZybL8y2l0FE5jKRam4JAVViM4etUefWS-SdKJR9XdonnFSwccmnFPp9DSUta18IexJD9zKg6Hb8TDCNSUozmPPozR7qTiYEi5l6_Z0y4MmlK4GeYeIvy3HtdQtmCGmA7n5hlDPSw-C6uGbvB0hKyae-cIDvoNBQzwCINts8V3q2TF8LlkhNn1fcqDMpRoPp3Qd8UKIykgDt_lsZ2n9CPhFyTbtB5vplL7Xhzw", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281330228781.ZGI2MjZkYjctYTcxZS00NWNhLWFhZTQtZGMzMGU1NzQ2YzAwZDkzODVhYjAtYzVkMC00OGJlLWEyZDMtNDFkZjg0YmRlZDll","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3O1QxzE979r6OSIKR5NunNcT1kbahbpI-OB8pCMtth6GxJhPMbaFKtUKs0jcMWgR-IlB-aYZybL8y2l0FE5jKRam4JAVViM4etUefWS-SdKJR9XdonnFSwccmnFPp9DSUta18IexJD9zKg6Hb8TDCNSUozmPPozR7qTiYEi5l6_Z0y4MmlK4GeYeIvy3HtdQtmCGmA7n5hlDPSw-C6uGbvB0hKyae-cIDvoNBQzwCINts8V3q2TF8LlkhNn1fcqDMpRoPp3Qd8UKIykgDt_lsZ2n9CPhFyTbtB5vplL7Xhzw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:28:53.0289 | Invalid grant type for client: "hybrid"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5005\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "ResponseType":"code id_token", "ResponseMode":"form_post", "GrantType":"hybrid", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3O1QxzE979r6OSIKR5NunNcT1kbahbpI-OB8pCMtth6GxJhPMbaFKtUKs0jcMWgR-IlB-aYZybL8y2l0FE5jKRam4JAVViM4etUefWS-SdKJR9XdonnFSwccmnFPp9DSUta18IexJD9zKg6Hb8TDCNSUozmPPozR7qTiYEi5l6_Z0y4MmlK4GeYeIvy3HtdQtmCGmA7n5hlDPSw-C6uGbvB0hKyae-cIDvoNBQzwCINts8V3q2TF8LlkhNn1fcqDMpRoPp3Qd8UKIykgDt_lsZ2n9CPhFyTbtB5vplL7Xhzw", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281330228781.ZGI2MjZkYjctYTcxZS00NWNhLWFhZTQtZGMzMGU1NzQ2YzAwZDkzODVhYjAtYzVkMC00OGJlLWEyZDMtNDFkZjg0YmRlZDll","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3O1QxzE979r6OSIKR5NunNcT1kbahbpI-OB8pCMtth6GxJhPMbaFKtUKs0jcMWgR-IlB-aYZybL8y2l0FE5jKRam4JAVViM4etUefWS-SdKJR9XdonnFSwccmnFPp9DSUta18IexJD9zKg6Hb8TDCNSUozmPPozR7qTiYEi5l6_Z0y4MmlK4GeYeIvy3HtdQtmCGmA7n5hlDPSw-C6uGbvB0hKyae-cIDvoNBQzwCINts8V3q2TF8LlkhNn1fcqDMpRoPp3Qd8UKIykgDt_lsZ2n9CPhFyTbtB5vplL7Xhzw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:28:53.0289 | Request validation failed 
+2021-12-09 14:28:53.0289 | Request validation failed 
+2021-12-09 14:29:59.3357 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:29:59.3357 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:29:59.3490 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281991317693.NjdiOWM4ZTAtZDlmMS00NWM4LThjNWYtZjgyMmEzMGQwNzUyYWFlOTIwNzUtY2YxYy00ZGU3LTkxNjQtNTgyNGVhYWRhZGEz","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3-RYJyByraNRuz8g7FESDbAu7aNGg03VTx3xiUYqvx7mKiybg7WMl1SjuYsZ9-YyeekgOYFPCApeLxmgifQZokBtkehPVsCoWlsb9qHFHy1OBTEzRRdLE5W6XoUqIM79Y95tHTqIFuIi1V6wS3g49ONyTJ6MxsiIZ-mF6bfxqgDnrKjaTrnG3EEbpmBy-ejWUy7P03D38FT8Nvhh4nzVxrct406521kO5PYZl5Qn5JfijtXxc3fRhwJFHlZCkLRGTScW2XlSm-gEu1Bwk2EFsJMt8ggCaD_oXVnU_N42mPqw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:29:59.3490 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile","response_mode":"form_post","nonce":"637746281991317693.NjdiOWM4ZTAtZDlmMS00NWM4LThjNWYtZjgyMmEzMGQwNzUyYWFlOTIwNzUtY2YxYy00ZGU3LTkxNjQtNTgyNGVhYWRhZGEz","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3-RYJyByraNRuz8g7FESDbAu7aNGg03VTx3xiUYqvx7mKiybg7WMl1SjuYsZ9-YyeekgOYFPCApeLxmgifQZokBtkehPVsCoWlsb9qHFHy1OBTEzRRdLE5W6XoUqIM79Y95tHTqIFuIi1V6wS3g49ONyTJ6MxsiIZ-mF6bfxqgDnrKjaTrnG3EEbpmBy-ejWUy7P03D38FT8Nvhh4nzVxrct406521kO5PYZl5Qn5JfijtXxc3fRhwJFHlZCkLRGTScW2XlSm-gEu1Bwk2EFsJMt8ggCaD_oXVnU_N42mPqw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:29:59.3697 | Request validation failed 
+2021-12-09 14:29:59.3697 | Request validation failed 
+2021-12-09 14:30:01.5272 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:30:01.5272 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:30:01.5272 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5002\/signin-oidc","response_type":"id_token token","scope":"openid profile","response_mode":"form_post","nonce":"637746282013993375.Mzg5ZThlYjctNzJjNy00ODI3LWIwNmEtZTQ3MzY2OTQ1ZGU5YThiYzVjYzMtZmRjYi00YzNhLTllNWItOWEyMzgwMmVlMDNj","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3CHQNRAmJRDP_h1LEbhJ-snyr0Ug2QwttU3_XoBLbH5KmqWdQCoSsWD9RYdIvHSFRYrJDz_JeheWol0EOOXJ2X9ZpuL_VcDpLne0Lca-iU-mpgFQrrL1fFBg7m7et0x-Qt5lnJ91gMdqCYQUm_nFC4tqGr0C6g_DvhgrAllkqRDxdDtZVoBZlVIXW1bPRytbJEFcX2zB4rhi_fFh24PXILHLTsACi6kFCtwvTNaOGwibwUAqomAx6tV6rij-hk29L6TmJ-uj2TEXzR8xzWHM0qP4xM1q7oDLhAZ9yso0bgXw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:30:01.5272 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5002\/signin-oidc","response_type":"id_token token","scope":"openid profile","response_mode":"form_post","nonce":"637746282013993375.Mzg5ZThlYjctNzJjNy00ODI3LWIwNmEtZTQ3MzY2OTQ1ZGU5YThiYzVjYzMtZmRjYi00YzNhLTllNWItOWEyMzgwMmVlMDNj","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt3CHQNRAmJRDP_h1LEbhJ-snyr0Ug2QwttU3_XoBLbH5KmqWdQCoSsWD9RYdIvHSFRYrJDz_JeheWol0EOOXJ2X9ZpuL_VcDpLne0Lca-iU-mpgFQrrL1fFBg7m7et0x-Qt5lnJ91gMdqCYQUm_nFC4tqGr0C6g_DvhgrAllkqRDxdDtZVoBZlVIXW1bPRytbJEFcX2zB4rhi_fFh24PXILHLTsACi6kFCtwvTNaOGwibwUAqomAx6tV6rij-hk29L6TmJ-uj2TEXzR8xzWHM0qP4xM1q7oDLhAZ9yso0bgXw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:30:01.5646 | Request validation failed 
+2021-12-09 14:30:01.5646 | Request validation failed 
+2021-12-09 14:30:04.2307 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:30:04.2307 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:30:04.2638 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:30:04.2638 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 14:30:58.6176 | Response type not supported: "none"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5002\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0tpllsRH77uv5PmaW1pThyNRM2Pthq1EE5scSkzLGvjNJENVkor1Ck13XAc5J-3YMmCaWncu_3PXfuDUaq24ZeC5bIBoLuwE8V2lx1GH07UtRkptcOi_HR7a6tNhRsO4TeT5zzT99OObOhb96WLtSlWHlQyGRinX0ZYToMFc6vGJ_sUVW6iuQeMxJIaSTWGTynXnT8gcfnki60aOszSWO1NvJ9gIM_Aca_b_VzCAQNjxUl69xJzL6O9AL1-ZMyR6DX4hlufrjuiu9aa1qBeBNmqRjVPkfS-AgcsxQRus7fDg", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5002\/signin-oidc","response_type":"none","scope":"openid profile","response_mode":"form_post","nonce":"637746282583858624.MGVlODIxYTctZTk2Yi00ODc1LWFmYjUtZjA5YTVmM2QzYjExMzAzZDNiOTktN2U2MS00NWUyLTkwMDgtMGRhZmU1MzNjNDQ2","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0tpllsRH77uv5PmaW1pThyNRM2Pthq1EE5scSkzLGvjNJENVkor1Ck13XAc5J-3YMmCaWncu_3PXfuDUaq24ZeC5bIBoLuwE8V2lx1GH07UtRkptcOi_HR7a6tNhRsO4TeT5zzT99OObOhb96WLtSlWHlQyGRinX0ZYToMFc6vGJ_sUVW6iuQeMxJIaSTWGTynXnT8gcfnki60aOszSWO1NvJ9gIM_Aca_b_VzCAQNjxUl69xJzL6O9AL1-ZMyR6DX4hlufrjuiu9aa1qBeBNmqRjVPkfS-AgcsxQRus7fDg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:30:58.6176 | Response type not supported: "none"
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "RedirectUri":"http:\/\/localhost:5002\/signin-oidc", "AllowedRedirectUris":["http:\/\/localhost:5002\/signin-oidc","http:\/\/localhost:5005\/signin-oidc"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0tpllsRH77uv5PmaW1pThyNRM2Pthq1EE5scSkzLGvjNJENVkor1Ck13XAc5J-3YMmCaWncu_3PXfuDUaq24ZeC5bIBoLuwE8V2lx1GH07UtRkptcOi_HR7a6tNhRsO4TeT5zzT99OObOhb96WLtSlWHlQyGRinX0ZYToMFc6vGJ_sUVW6iuQeMxJIaSTWGTynXnT8gcfnki60aOszSWO1NvJ9gIM_Aca_b_VzCAQNjxUl69xJzL6O9AL1-ZMyR6DX4hlufrjuiu9aa1qBeBNmqRjVPkfS-AgcsxQRus7fDg", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5002\/signin-oidc","response_type":"none","scope":"openid profile","response_mode":"form_post","nonce":"637746282583858624.MGVlODIxYTctZTk2Yi00ODc1LWFmYjUtZjA5YTVmM2QzYjExMzAzZDNiOTktN2U2MS00NWUyLTkwMDgtMGRhZmU1MzNjNDQ2","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0tpllsRH77uv5PmaW1pThyNRM2Pthq1EE5scSkzLGvjNJENVkor1Ck13XAc5J-3YMmCaWncu_3PXfuDUaq24ZeC5bIBoLuwE8V2lx1GH07UtRkptcOi_HR7a6tNhRsO4TeT5zzT99OObOhb96WLtSlWHlQyGRinX0ZYToMFc6vGJ_sUVW6iuQeMxJIaSTWGTynXnT8gcfnki60aOszSWO1NvJ9gIM_Aca_b_VzCAQNjxUl69xJzL6O9AL1-ZMyR6DX4hlufrjuiu9aa1qBeBNmqRjVPkfS-AgcsxQRus7fDg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 14:30:58.6382 | Request validation failed 
+2021-12-09 14:30:58.6382 | Request validation failed 
+2021-12-09 14:32:58.1681 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:32:58.1681 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:32:58.1724 | Request validation failed 
+2021-12-09 14:32:58.1724 | Request validation failed 
+2021-12-09 14:33:00.4980 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:33:00.4980 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:33:00.4980 | Request validation failed 
+2021-12-09 14:33:00.4980 | Request validation failed 
+2021-12-09 14:33:21.4395 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:33:21.4395 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:33:26.3371 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:33:26.3371 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:33:26.3420 | Request validation failed 
+2021-12-09 14:33:26.3420 | Request validation failed 
+2021-12-09 14:35:17.0858 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:35:17.0858 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:35:17.0858 | Request validation failed 
+2021-12-09 14:35:17.0858 | Request validation failed 
+2021-12-09 14:38:34.0339 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:38:34.0339 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:38:34.0447 | Request validation failed 
+2021-12-09 14:38:34.0447 | Request validation failed 
+2021-12-09 14:38:51.6274 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:38:51.6274 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:38:51.6395 | Request validation failed 
+2021-12-09 14:38:51.6395 | Request validation failed 
+2021-12-09 14:52:47.5624 | An unhandled exception has occurred while executing the request. System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:52:47.5624 | An unhandled exception has occurred while executing the request. System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:52:56.7955 | An unhandled exception has occurred while executing the request. System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:52:56.7955 | An unhandled exception has occurred while executing the request. System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 14:53:59.9075 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:53:59.9075 | Requests for token response type only must include resource scopes, but no identity scopes. 
+2021-12-09 14:53:59.9075 | Request validation failed 
+2021-12-09 14:53:59.9075 | Request validation failed 

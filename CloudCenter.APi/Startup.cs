@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Reflection;
 using System.Security.AccessControl;
 using System.Threading.Tasks;
 using CloudCenter.APi.Middlewares;
@@ -16,6 +17,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 namespace CloudCenter.APi
 {
@@ -45,7 +47,8 @@ namespace CloudCenter.APi
                     .AllowAnyHeader()
                     .AllowCredentials());
             });
-
+            services.AddMiniProfiler(options =>
+                      options.RouteBasePath = "/profiler");
             services.AddCustomAuthentication(Configuration);
         }
 
@@ -62,9 +65,20 @@ namespace CloudCenter.APi
                 c.SwaggerEndpoint($"/swagger/v1/swagger.json", "CloudCenter.APi V1");
                 c.OAuthClientId("CloudCenter.APi");
                 c.OAuthAppName("CloudCenter.APi Swagger UI");
+                c.IndexStream = () => GetType().GetTypeInfo().Assembly.GetManifestResourceStream("CloudCenter.APi.index.html");
+                //c.IndexStream = () => GetType().GetTypeInfo()
+                //.Assembly.GetManifestResourceStream("CloudCenter.APi.index.html");
+                //////设置首页为Swagger
+                //c.RoutePrefix = string.Empty;
+                ////自定义页面 集成性能分析
+                //c.SwaggerEndpoint("/swagger/v1/swagger.json", "SN博客API");
+                //////设置为none可折叠所有方法
+                //c.DocExpansion(DocExpansion.None);
+                //////设置为-1 可不显示models
+                //c.DefaultModelsExpandDepth(-1);
             });
             app.UseRouting();
-            //app.UseCors("CorsPolicy");
+            app.UseCors("CorsPolicy");
             ConfigureAuth(app);
             app.UseEndpoints(endpoints =>
             {
@@ -72,6 +86,7 @@ namespace CloudCenter.APi
                 //endpoints.MapDefaultControllerRoute().RequireAuthorization("ApiScope"); // adds scope
             });
             //Consul注册
+            app.UseMiniProfiler();
             app.UseConsul();
         }
 

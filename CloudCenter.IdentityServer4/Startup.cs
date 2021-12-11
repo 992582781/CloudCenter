@@ -50,7 +50,8 @@ namespace CloudCenter.IdentityServer4
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)//4.xÐÂ¼Ó
                 .AddInMemoryApiResources(Config.ApiResources)
-                .AddInMemoryClients(Config.Clients);
+                .AddInMemoryClients(Config.Clients)
+                .AddProfileService<ProfileService>();
             // not recommended for production - you need to store your key material somewhere secure
             //builder.AddDeveloperSigningCredential();
             services.ConfigureNonBreakingSameSiteCookies();

@@ -1,0 +1,77 @@
+2021-12-08 13:15:57.4656 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 13:15:57.6416 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 13:15:57.6564 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 13:15:57.8646 | Now listening on: http://localhost:5001 
+2021-12-08 13:15:57.8814 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 13:15:57.8814 | Hosting environment: Development 
+2021-12-08 13:15:57.8943 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 13:17:08.7252 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 13:17:08.7927 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 13:17:08.7927 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 13:17:09.0856 | Now listening on: http://localhost:5001 
+2021-12-08 13:17:09.0992 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 13:17:09.1572 | Hosting environment: Development 
+2021-12-08 13:17:09.1694 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 13:17:34.0783 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 13:17:34.1800 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 13:17:34.1991 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 13:17:34.5146 | Now listening on: http://localhost:5001 
+2021-12-08 13:17:34.5146 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 13:17:34.5633 | Hosting environment: Development 
+2021-12-08 13:17:34.5633 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 13:17:38.4702 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:17:38.5427 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 13:17:38.5939 | Showing login: User is not authenticated 
+2021-12-08 13:17:47.3139 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2021-12-08 13:17:47.8686 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:17:47.8917 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-08 13:17:47.9374 | Token request validation success, {"ClientId":"js", "ClientName":"JavaScript Client", "GrantType":"authorization_code", "AuthorizationCode":"****C52D", "RefreshToken":"********", "Raw":{"client_id":"js","code":"5A52D5D23946F446BC46DD2F88CEDAAC5C54547F3F3D253FA58328820F95C52D","redirect_uri":"http:\/\/localhost:7001\/callback.html","code_verifier":"2028f0655b6d43469ea6490a2875581d369abeed6e6542b2a423b10159569a721a0e04d02ba0483192f987155756e188","grant_type":"authorization_code"}} 
+2021-12-08 13:17:48.1144 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-08 13:17:48.1673 | Profile service returned the following claim types: sub 
+2021-12-08 13:17:48.1844 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:17:48.4860 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:17:48.5082 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:18:58.8113 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:18:58.8906 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-08 13:20:19.8676 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:20:19.8786 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:20:29.1398 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession 
+2021-12-08 13:20:29.1398 | End session request validation success
+{"ClientId":"js", "ClientName":"JavaScript Client", "SubjectId":"i3yuan", "PostLogOutUri":"http:\/\/localhost:7001\/index.html", "Raw":{"id_token_hint":"***REDACTED***","post_logout_redirect_uri":"http:\/\/localhost:7001\/index.html"}} 
+2021-12-08 13:20:50.7282 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:20:50.7443 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 13:20:50.7468 | Showing login: User is not authenticated 
+2021-12-08 13:20:59.2830 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2021-12-08 13:20:59.8953 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:20:59.9054 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-08 13:20:59.9054 | Token request validation success, {"ClientId":"js", "ClientName":"JavaScript Client", "GrantType":"authorization_code", "AuthorizationCode":"****BE1F", "RefreshToken":"********", "Raw":{"client_id":"js","code":"D084962E8B396282640CED593EE8C937CA0B177C01B0583AC13634300706BE1F","redirect_uri":"http:\/\/localhost:7001\/callback.html","code_verifier":"046e145ea3bf41589791c46424d2449a46bd482409824c2c85ad27dbe6535d062a789cb4f85e4c83ab99ad9f81db8578","grant_type":"authorization_code"}} 
+2021-12-08 13:20:59.9287 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-08 13:20:59.9287 | Profile service returned the following claim types: sub 
+2021-12-08 13:20:59.9409 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:21:00.1938 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:21:00.2041 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:21:13.0816 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession 
+2021-12-08 13:21:13.0816 | End session request validation success
+{"ClientId":"js", "ClientName":"JavaScript Client", "SubjectId":"i3yuan", "PostLogOutUri":"http:\/\/localhost:7001\/index.html", "Raw":{"id_token_hint":"***REDACTED***","post_logout_redirect_uri":"http:\/\/localhost:7001\/index.html"}} 
+2021-12-08 13:29:49.9052 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 13:29:49.9637 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 13:29:49.9870 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 13:29:50.2118 | Now listening on: http://localhost:5001 
+2021-12-08 13:29:50.2118 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 13:29:50.2159 | Hosting environment: Development 
+2021-12-08 13:29:50.2159 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 13:30:16.5918 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 13:30:24.3648 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:30:24.5256 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-08 13:33:06.8611 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:33:06.8788 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 13:33:06.8788 | Showing login: User is not authenticated 
+2021-12-08 13:33:15.6814 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2021-12-08 13:33:16.1330 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:33:16.1523 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-08 13:33:16.1901 | Token request validation success, {"ClientId":"js", "ClientName":"JavaScript Client", "GrantType":"authorization_code", "AuthorizationCode":"****E186", "RefreshToken":"********", "Raw":{"client_id":"js","code":"84DB3F01116F7ED2796D02F50C12DFF6E9D4D349DF16C1FA92CA4DFC40A2E186","redirect_uri":"http:\/\/localhost:7001\/callback.html","code_verifier":"63536fc002404dcc8e0fabb6aee1b217e9dcb16567eb441cb9cc2a8184952e7090ca516d4c67403dad3d3646f94d6add","grant_type":"authorization_code"}} 
+2021-12-08 13:33:16.2418 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-08 13:33:16.2843 | Profile service returned the following claim types: sub 
+2021-12-08 13:33:16.2969 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-08 13:33:16.5503 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 13:33:16.5604 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 

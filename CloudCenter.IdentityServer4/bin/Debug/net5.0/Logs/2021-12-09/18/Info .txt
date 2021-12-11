@@ -1,0 +1,33 @@
+2021-12-09 18:52:45.0902 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-09 18:52:45.1908 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-09 18:52:45.2019 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-09 18:52:45.4985 | Now listening on: http://localhost:5001 
+2021-12-09 18:52:45.4985 | Application started. Press Ctrl+C to shut down. 
+2021-12-09 18:52:45.4985 | Hosting environment: Development 
+2021-12-09 18:52:45.5177 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-09 18:54:53.5345 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-09 18:54:53.5746 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-09 18:54:53.5746 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-09 18:54:53.7754 | Now listening on: http://localhost:5001 
+2021-12-09 18:54:53.7805 | Application started. Press Ctrl+C to shut down. 
+2021-12-09 18:54:53.7805 | Hosting environment: Development 
+2021-12-09 18:54:53.7805 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-09 18:55:20.2880 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-09 18:55:20.3729 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-09 18:55:20.3931 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-09 18:55:20.7342 | Now listening on: http://localhost:5001 
+2021-12-09 18:55:20.7342 | Application started. Press Ctrl+C to shut down. 
+2021-12-09 18:55:20.7464 | Hosting environment: Development 
+2021-12-09 18:55:20.7464 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-09 18:55:32.5982 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-09 18:55:32.7692 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-09 18:55:33.0211 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-09 18:55:33.4546 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-09 18:55:33.5032 | Token request validation success, {"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "GrantType":"authorization_code", "AuthorizationCode":"****5EFF", "RefreshToken":"********", "Raw":{"client_id":"CloudCenter.MVC","client_secret":"***REDACTED***","code":"3DC2C73224C32284E3A917AFE0A0A1056C7F492EDD68E98E79B4D4D6153A5EFF","grant_type":"authorization_code","redirect_uri":"http:\/\/localhost:5002\/signin-oidc"}} 
+2021-12-09 18:55:33.5704 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-09 18:55:33.6211 | Profile service returned the following claim types: sub 
+2021-12-09 18:55:37.0003 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession 
+2021-12-09 18:55:37.0003 | End session request validation success
+{"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "SubjectId":"2", "PostLogOutUri":"http:\/\/localhost:5002\/signout-callback-oidc", "State":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt1GyCBWqhCfUjN41IpNYdDKP3Hil9n_6lUwOLhxKIC_SpwPQYsf4Ur_agRFdHsCOvQpFkf_3ElIP7TLtvhOe7FqR-YnV_1A1wqyTCA91enE0ZJmK9XZfxIQCQsx3GbHPVU", "Raw":{"post_logout_redirect_uri":"http:\/\/localhost:5002\/signout-callback-oidc","id_token_hint":"***REDACTED***","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt1GyCBWqhCfUjN41IpNYdDKP3Hil9n_6lUwOLhxKIC_SpwPQYsf4Ur_agRFdHsCOvQpFkf_3ElIP7TLtvhOe7FqR-YnV_1A1wqyTCA91enE0ZJmK9XZfxIQCQsx3GbHPVU","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 18:55:39.4110 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-09 18:55:39.4110 | Showing login: User is not authenticated 

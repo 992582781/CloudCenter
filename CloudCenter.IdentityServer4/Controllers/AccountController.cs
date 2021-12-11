@@ -19,8 +19,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CloudCenter.IdentityServer4.Controllers
@@ -78,14 +80,14 @@ namespace CloudCenter.IdentityServer4.Controllers
         public async Task<IActionResult> Login(string userName, string password, string returnUrl = null)
         {
             var model = new LoginInputModel();
-            model.SubjectId = "11";
-            model.Username = "i3yuan";
+            model.SubjectId = DateTime.Now.Minute.ToString();
+            model.Username = DateTime.Now.Minute.ToString();
             model.Password = "123456";
             model.ReturnUrl = returnUrl;
 
             _logger.LogError("mediator开始");
             var userQuery = new UserQuery();
-            userQuery.Username = "i3yuan";
+            userQuery.Username = DateTime.Now.Minute.ToString();
             userQuery.Password = "i3yuan";
             var tt= await _mediator.Send(userQuery);
             _logger.LogError("mediator结束");
@@ -98,10 +100,21 @@ namespace CloudCenter.IdentityServer4.Controllers
                 IsPersistent = true,
                 ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
             };
- 
-            var isuser = new IdentityServerUser(model.Username)
+
+            var Claims = new List<Claim> {
+                            new Claim(JwtClaimTypes.Name, "i3yuan99 Smith99"),
+                            new Claim(JwtClaimTypes.GivenName, "i3yuan99"),
+                            new Claim(JwtClaimTypes.FamilyName, "Smith99"),
+                            new Claim(JwtClaimTypes.Id, "opiiopp"),
+                            new Claim(JwtClaimTypes.WebSite, "http://i3yuan.top99"),
+                            new Claim("UserID", "369"),
+                            //new Claim(JwtClaimTypes.Role, "admin")  //添加角色
+                        };
+
+            var isuser = new IdentityServerUser(model.SubjectId)
             {
-                DisplayName = model.Username
+                DisplayName = model.Username,
+                AdditionalClaims = Claims
             };
 
             await HttpContext.SignInAsync(isuser, props);

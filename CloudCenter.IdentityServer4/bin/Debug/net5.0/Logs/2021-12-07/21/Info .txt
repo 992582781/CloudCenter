@@ -1,7 +1,47 @@
-2021-12-07 21:56:00.7842 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
-2021-12-07 21:56:00.8604 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
-2021-12-07 21:56:00.8734 | Using the default authentication scheme idsrv for IdentityServer 
-2021-12-07 21:56:01.1425 | Now listening on: http://localhost:5001 
-2021-12-07 21:56:01.1425 | Application started. Press Ctrl+C to shut down. 
-2021-12-07 21:56:01.1425 | Hosting environment: Development 
-2021-12-07 21:56:01.1528 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 21:01:59.1623 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 21:01:59.2654 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 21:01:59.2798 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 21:01:59.5351 | Now listening on: http://localhost:5001 
+2021-12-07 21:01:59.5705 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 21:01:59.5705 | Hosting environment: Development 
+2021-12-07 21:01:59.6267 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 21:02:16.2013 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:02:16.3602 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjE2IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:32.0323 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:02:32.0323 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjMyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:56.8380 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 21:02:56.8931 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 21:02:56.8931 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 21:02:57.1654 | Now listening on: http://localhost:5001 
+2021-12-07 21:02:57.3745 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 21:02:57.4558 | Hosting environment: Development 
+2021-12-07 21:02:57.4764 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 21:03:03.1650 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:03:03.2688 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjAzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:10.5769 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:03:10.5806 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjEwIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:23.7224 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:03:23.7224 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjIzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:53.8806 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 21:03:53.9790 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 21:03:53.9918 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 21:03:54.2726 | Now listening on: http://localhost:5001 
+2021-12-07 21:03:54.2726 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 21:03:54.2726 | Hosting environment: Development 
+2021-12-07 21:03:54.2726 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 21:03:59.4747 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:03:59.5724 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjU5IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:05:21.0014 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-07 21:05:21.0966 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-07 21:05:21.1150 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-07 21:05:21.3327 | Now listening on: http://localhost:5001 
+2021-12-07 21:05:21.3327 | Application started. Press Ctrl+C to shut down. 
+2021-12-07 21:05:21.3439 | Hosting environment: Development 
+2021-12-07 21:05:21.3439 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-07 21:05:34.3223 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-07 21:05:34.4939 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-07 21:05:34.6590 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:05:42.8243 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:05:42.8632 | {"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjA1OjQyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:06:07.4730 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-07 21:06:07.4874 | {"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{}} 

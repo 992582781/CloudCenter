@@ -1,0 +1,150 @@
+2021-12-09 15:00:47.4400 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 15:00:47.4400 | Invalid client configuration for client CloudCenter.MVC: Client secret is required for hybrid, but no client secret is configured. 
+2021-12-09 15:00:47.4512 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"anonymous", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile CloudCenter.MVC","response_mode":"form_post","nonce":"637746300472791899.YWI5MWFiYzctZTE1My00ZDk2LTkxODEtYjZkYjg0ZDc2ZWY3ZWI1MDZiNjMtNjA1YS00NzM2LTkzMDctYzJhMGM4YzA4YTFl","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0QsVAhuMfI2Lq72RZzpwt5xmkf-uoYCi7MGiXWvgCzJLd7k7xueRxRlx3ROfZGNEPZBKMZd4h2YAb9PpPwJDoVAs2ohHclt2RqqhF9atKDarX3cfoitSF9rCwcwF06I6WBMP1nh_nX2eO2utLPQq97M1opy_VkmfHFxJp63fsnQGpGNph69V0W8jnDExAy5c1gFVsWNYtWqa72ARF33VMftacOQS98tn43NlGbEEEqHV9qdlwm30rNglUyFFu5L-KvonM5-N-jOJzLmcKqA7jslwjfFeSRoJjkm7ltVRJI1g","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 15:00:47.4512 | Unknown client or not enabled: "CloudCenter.MVC"
+{"SubjectId":"anonymous", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"CloudCenter.MVC","redirect_uri":"http:\/\/localhost:5005\/signin-oidc","response_type":"code id_token","scope":"openid profile CloudCenter.MVC","response_mode":"form_post","nonce":"637746300472791899.YWI5MWFiYzctZTE1My00ZDk2LTkxODEtYjZkYjg0ZDc2ZWY3ZWI1MDZiNjMtNjA1YS00NzM2LTkzMDctYzJhMGM4YzA4YTFl","state":"CfDJ8KbG1uaYIbJKpeFAX2s1Pt0QsVAhuMfI2Lq72RZzpwt5xmkf-uoYCi7MGiXWvgCzJLd7k7xueRxRlx3ROfZGNEPZBKMZd4h2YAb9PpPwJDoVAs2ohHclt2RqqhF9atKDarX3cfoitSF9rCwcwF06I6WBMP1nh_nX2eO2utLPQq97M1opy_VkmfHFxJp63fsnQGpGNph69V0W8jnDExAy5c1gFVsWNYtWqa72ARF33VMftacOQS98tn43NlGbEEEqHV9qdlwm30rNglUyFFu5L-KvonM5-N-jOJzLmcKqA7jslwjfFeSRoJjkm7ltVRJI1g","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.6.0.0"}} 
+2021-12-09 15:00:47.4721 | Request validation failed 
+2021-12-09 15:00:47.4721 | Request validation failed 
+2021-12-09 15:02:01.3017 | mediator开始 
+2021-12-09 15:02:01.3017 | mediator开始 
+2021-12-09 15:02:01.5520 | mediator过程开始 
+2021-12-09 15:02:01.5520 | mediator过程开始 
+2021-12-09 15:02:01.5520 | mediator结束 
+2021-12-09 15:02:01.5520 | mediator结束 
+2021-12-09 15:07:00.7250 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 15:07:00.7250 | An unhandled exception has occurred while executing the request. System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(LogoutViewModel model) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 189
+   at CloudCenter.IdentityServer4.Controllers.AccountController.Logout(String logoutId) in D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4\Controllers\AccountController.cs:line 138
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) 
+ HostingApplication.ProcessRequestAsync => HostFilteringMiddleware.Invoke => DeveloperExceptionPageMiddleware.Invoke 
+
+2021-12-09 15:07:13.3248 | mediator开始 
+2021-12-09 15:07:13.3248 | mediator开始 
+2021-12-09 15:07:13.9007 | mediator过程开始 
+2021-12-09 15:07:13.9007 | mediator过程开始 
+2021-12-09 15:07:13.9035 | mediator结束 
+2021-12-09 15:07:13.9035 | mediator结束 
+2021-12-09 15:08:32.4304 | mediator开始 
+2021-12-09 15:08:32.4304 | mediator开始 
+2021-12-09 15:08:32.9934 | mediator过程开始 
+2021-12-09 15:08:32.9934 | mediator过程开始 
+2021-12-09 15:08:32.9934 | mediator结束 
+2021-12-09 15:08:32.9934 | mediator结束 
+2021-12-09 15:09:08.3652 | mediator开始 
+2021-12-09 15:09:08.3652 | mediator开始 
+2021-12-09 15:09:08.9807 | mediator过程开始 
+2021-12-09 15:09:08.9807 | mediator过程开始 
+2021-12-09 15:09:08.9807 | mediator结束 
+2021-12-09 15:09:08.9807 | mediator结束 
+2021-12-09 15:15:34.6517 | mediator开始 
+2021-12-09 15:15:34.6517 | mediator开始 
+2021-12-09 15:15:35.4490 | mediator过程开始 
+2021-12-09 15:15:35.4490 | mediator过程开始 
+2021-12-09 15:15:35.4518 | mediator结束 
+2021-12-09 15:15:35.4518 | mediator结束 
+2021-12-09 15:17:00.3768 | mediator开始 
+2021-12-09 15:17:00.3768 | mediator开始 
+2021-12-09 15:17:02.3542 | mediator过程开始 
+2021-12-09 15:17:02.3542 | mediator过程开始 
+2021-12-09 15:17:02.3587 | mediator结束 
+2021-12-09 15:17:02.3587 | mediator结束 
+2021-12-09 15:19:12.9253 | Invalid grant type for client: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "ResponseType":"code", "ResponseMode":"query", "GrantType":"authorization_code", "RequestedScopes":"", "State":"b08068baf19f4853b6534c45db33f6df", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"b08068baf19f4853b6534c45db33f6df","code_challenge":"AZVAWQ-ITWihFSsLjBNNMSK7J6IoqSBSxdlntavuXTM","code_challenge_method":"S256"}} 
+2021-12-09 15:19:12.9253 | Invalid grant type for client: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "ResponseType":"code", "ResponseMode":"query", "GrantType":"authorization_code", "RequestedScopes":"", "State":"b08068baf19f4853b6534c45db33f6df", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"b08068baf19f4853b6534c45db33f6df","code_challenge":"AZVAWQ-ITWihFSsLjBNNMSK7J6IoqSBSxdlntavuXTM","code_challenge_method":"S256"}} 
+2021-12-09 15:19:12.9536 | Request validation failed 
+2021-12-09 15:19:12.9536 | Request validation failed 
+2021-12-09 15:19:37.3398 | Invalid grant type for client: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "ResponseType":"code", "ResponseMode":"query", "GrantType":"authorization_code", "RequestedScopes":"", "State":"164e4ca1e038483c8edeb6d1bf886abc", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"164e4ca1e038483c8edeb6d1bf886abc","code_challenge":"13r0X0WdJY0xqAh2nB3fEAX7Q8zceTyZIKvxmEHOu7M","code_challenge_method":"S256"}} 
+2021-12-09 15:19:37.3398 | Invalid grant type for client: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "ResponseType":"code", "ResponseMode":"query", "GrantType":"authorization_code", "RequestedScopes":"", "State":"164e4ca1e038483c8edeb6d1bf886abc", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"164e4ca1e038483c8edeb6d1bf886abc","code_challenge":"13r0X0WdJY0xqAh2nB3fEAX7Q8zceTyZIKvxmEHOu7M","code_challenge_method":"S256"}} 
+2021-12-09 15:19:37.3398 | Request validation failed 
+2021-12-09 15:19:37.3398 | Request validation failed 
+2021-12-09 15:20:12.3339 | Response type not supported: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"3b346bb62b59430482837233dc7f574e", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"authorization_code","scope":"openid profile CloudCenter.APi","state":"3b346bb62b59430482837233dc7f574e"}} 
+2021-12-09 15:20:12.3339 | Response type not supported: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"3b346bb62b59430482837233dc7f574e", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"authorization_code","scope":"openid profile CloudCenter.APi","state":"3b346bb62b59430482837233dc7f574e"}} 
+2021-12-09 15:20:12.3339 | Request validation failed 
+2021-12-09 15:20:12.3339 | Request validation failed 
+2021-12-09 15:20:15.2935 | Response type not supported: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"aedd12c991124da6a586cbe09c9cc6c6", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"authorization_code","scope":"openid profile CloudCenter.APi","state":"aedd12c991124da6a586cbe09c9cc6c6"}} 
+2021-12-09 15:20:15.2935 | Response type not supported: "authorization_code"
+{"ClientId":"js", "ClientName":"JavaScript Client", "RedirectUri":"http:\/\/localhost:7001\/callback.html", "AllowedRedirectUris":["http:\/\/localhost:7001\/callback.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "State":"aedd12c991124da6a586cbe09c9cc6c6", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"authorization_code","scope":"openid profile CloudCenter.APi","state":"aedd12c991124da6a586cbe09c9cc6c6"}} 
+2021-12-09 15:20:15.2935 | Request validation failed 
+2021-12-09 15:20:15.2935 | Request validation failed 
+2021-12-09 15:24:04.5816 | Invalid client configuration for client js: Client secret is required for authorization_code, but no client secret is configured. 
+2021-12-09 15:24:04.5816 | Invalid client configuration for client js: Client secret is required for authorization_code, but no client secret is configured. 
+2021-12-09 15:24:04.6048 | Unknown client or not enabled: "js"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"1422d195c1fc4f5a96ee17bc72950a0d","code_challenge":"lmKEwRgWXqb0e2glTsEfqGw5jr7ugPPYDXRYq91baYI","code_challenge_method":"S256"}} 
+2021-12-09 15:24:04.6048 | Unknown client or not enabled: "js"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"1422d195c1fc4f5a96ee17bc72950a0d","code_challenge":"lmKEwRgWXqb0e2glTsEfqGw5jr7ugPPYDXRYq91baYI","code_challenge_method":"S256"}} 
+2021-12-09 15:24:04.6242 | Request validation failed 
+2021-12-09 15:24:04.6242 | Request validation failed 
+2021-12-09 15:28:17.4340 | Invalid client configuration for client js: Client secret is required for authorization_code, but no client secret is configured. 
+2021-12-09 15:28:17.4340 | Invalid client configuration for client js: Client secret is required for authorization_code, but no client secret is configured. 
+2021-12-09 15:28:17.4508 | Unknown client or not enabled: "js"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"8af0c4857d364d4f9937e4a66b19c97b","code_challenge":"hgbZTqrNRbBer_8IDt2dsafKarngQvhe2TU0kIMGQkU","code_challenge_method":"S256"}} 
+2021-12-09 15:28:17.4508 | Unknown client or not enabled: "js"
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"client_id":"js","redirect_uri":"http:\/\/localhost:7001\/callback.html","response_type":"code","scope":"openid profile CloudCenter.APi","state":"8af0c4857d364d4f9937e4a66b19c97b","code_challenge":"hgbZTqrNRbBer_8IDt2dsafKarngQvhe2TU0kIMGQkU","code_challenge_method":"S256"}} 
+2021-12-09 15:28:17.4719 | Request validation failed 
+2021-12-09 15:28:17.4719 | Request validation failed 
+2021-12-09 15:32:17.0641 | mediator开始 
+2021-12-09 15:32:17.0641 | mediator开始 
+2021-12-09 15:32:17.7520 | mediator过程开始 
+2021-12-09 15:32:17.7520 | mediator过程开始 
+2021-12-09 15:32:17.7520 | mediator结束 
+2021-12-09 15:32:17.7520 | mediator结束 
+2021-12-09 15:33:13.5465 | mediator开始 
+2021-12-09 15:33:13.5465 | mediator开始 
+2021-12-09 15:33:13.7979 | mediator过程开始 
+2021-12-09 15:33:13.7979 | mediator过程开始 
+2021-12-09 15:33:13.7979 | mediator结束 
+2021-12-09 15:33:13.7979 | mediator结束 

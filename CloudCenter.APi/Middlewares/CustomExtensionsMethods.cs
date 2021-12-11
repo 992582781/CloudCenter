@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.IO;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
@@ -49,6 +51,11 @@ namespace CloudCenter.APi.Middlewares
                         }
                     }
                 });
+                //Determine base path for the application.  
+                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                //Set the comments path for the swagger json and ui.  
+                var xmlPath = Path.Combine(basePath, "CloudCenter.APi.xml");
+                options.IncludeXmlComments(xmlPath);
                 //在header中添加token，传递到后台
                 options.OperationFilter<AuthorizeCheckOperationFilter>();
             });

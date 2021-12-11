@@ -1,0 +1,45 @@
+2021-12-11 12:01:08.7833 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-11 12:01:08.9098 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-11 12:01:08.9321 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-11 12:01:09.3907 | Now listening on: http://localhost:5001 
+2021-12-11 12:01:09.4155 | Application started. Press Ctrl+C to shut down. 
+2021-12-11 12:01:09.4155 | Hosting environment: Development 
+2021-12-11 12:01:09.4299 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-11 12:18:49.4337 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-11 12:18:49.6280 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-11 12:18:49.6852 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-11 12:18:50.5694 | Now listening on: http://localhost:5001 
+2021-12-11 12:18:50.5758 | Application started. Press Ctrl+C to shut down. 
+2021-12-11 12:18:50.5758 | Hosting environment: Development 
+2021-12-11 12:18:50.5758 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-11 12:19:15.2807 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:19:15.4132 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:19:15.5081 | Showing login: User is not authenticated 
+2021-12-11 12:19:20.6920 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2021-12-11 12:19:20.9446 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:19:20.9802 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-11 12:19:21.0747 | Token request validation success, {"ClientId":"js", "ClientName":"JavaScript Client", "GrantType":"authorization_code", "AuthorizationCode":"****4E10", "RefreshToken":"********", "Raw":{"client_id":"js","code":"932258A621D90DE601B2286A6276A5F7A420712DC6428FDB156F916208184E10","redirect_uri":"http:\/\/localhost:7001\/callback.html","code_verifier":"5d2667d5010a4e168557a96afef2975484adbe4501eb4cd8adfd67f5f82893418c6d2ee37de743d781bfc3f9ae66c086","grant_type":"authorization_code"}} 
+2021-12-11 12:19:21.2633 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-11 12:19:21.3549 | Profile service returned the following claim types: sub auth_time idp name name given_name family_name id website UserID amr 
+2021-12-11 12:19:21.3805 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-11 12:19:21.4156 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:19:21.4284 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession 
+2021-12-11 12:19:43.8528 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:19:44.0672 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-11 12:19:44.2929 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:19:44.5080 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-11 12:19:44.5189 | Token request validation success, {"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "GrantType":"authorization_code", "AuthorizationCode":"****AE4F", "RefreshToken":"********", "Raw":{"client_id":"CloudCenter.MVC","client_secret":"***REDACTED***","code":"84DC3DDAA24577951F3FECCE34EA86896264E67937EBC2CE09EF04B04088AE4F","grant_type":"authorization_code","redirect_uri":"http:\/\/localhost:5005\/signin-oidc"}} 
+2021-12-11 12:19:44.5509 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-11 12:19:44.5509 | Profile service returned the following claim types: sub auth_time idp name name given_name family_name id website UserID amr 
+2021-12-11 12:19:50.7698 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:19:51.0214 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2021-12-11 12:19:51.2679 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:19:51.4995 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2021-12-11 12:19:51.4995 | Token request validation success, {"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "GrantType":"authorization_code", "AuthorizationCode":"****BA2A", "RefreshToken":"********", "Raw":{"client_id":"CloudCenter.MVC","client_secret":"***REDACTED***","code":"7ED7D998C97E13CB377D0C83EA1A7B53B8E96848E1227892B3009C12BCBABA2A","grant_type":"authorization_code","redirect_uri":"http:\/\/localhost:5002\/signin-oidc"}} 
+2021-12-11 12:19:51.5345 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2021-12-11 12:19:51.5345 | Profile service returned the following claim types: sub auth_time idp name name given_name family_name id website UserID amr 
+2021-12-11 12:20:05.6267 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:20:21.8000 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:20:55.2315 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-11 12:21:27.3857 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-11 12:21:27.4824 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 

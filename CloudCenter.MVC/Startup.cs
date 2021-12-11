@@ -44,7 +44,7 @@ namespace CloudCenter.MVC
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 //DefaultChanllangeScheme设为"oidc", 这个名字与后边配置OpenIdConnect的名字要一样.
                 //当用户需要登陆的时候, 将使用的是OpenId Connect Scheme
-                //options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = "oidc";
             })
               //AddCookie其参数是之前配置的DefaultScheme名称，这配置了Cookie的处理者，
@@ -72,17 +72,16 @@ namespace CloudCenter.MVC
                    options.Authority = identityUrl.ToString();
                    options.SignedOutRedirectUri = callBackUrl.ToString();
                    options.ClientId = "CloudCenter.MVC";
-                   //options.ClientSecret = "CloudCenter.MVC_Secret";
-                   //options.ResponseType = OpenIdConnectResponseType.Code;
-                   //options.Scope.Clear();
-                   //options.Scope.Add("openid");
-                   //options.Scope.Add("profile");
+                   options.ClientSecret = "CloudCenter.MVC_Secret";
+                   options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
+                   options.Scope.Clear();
+                   options.Scope.Add("openid");
+                   options.Scope.Add("profile");
                    options.SaveTokens = true;
                    //为api在使用refresh_token的时候,配置offline_access作用域
-                   //options.GetClaimsFromUserInfoEndpoint = true;
-                   //options.GetClaimsFromUserInfoEndpoint = true;
+                   options.GetClaimsFromUserInfoEndpoint = true;
                    options.RequireHttpsMetadata = false;
-                   //options.Scope.Add("CloudCenter.MVC"); //添加授权资源
+                   options.Scope.Add("CloudCenter.MVC"); //添加授权资源
 
                });
             #endregion

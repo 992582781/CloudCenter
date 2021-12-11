@@ -1,0 +1,60 @@
+2021-12-07 21:02:16.3324 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjE2IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:16.3324 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjE2IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:16.3576 | Request validation failed 
+2021-12-07 21:02:16.3576 | Request validation failed 
+2021-12-07 21:02:32.0323 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjMyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:32.0323 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAyOjMyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:02:32.0323 | Request validation failed 
+2021-12-07 21:02:32.0323 | Request validation failed 
+2021-12-07 21:03:03.2354 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjAzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:03.2354 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjAzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:03.2585 | Request validation failed 
+2021-12-07 21:03:03.2585 | Request validation failed 
+2021-12-07 21:03:10.5806 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjEwIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:10.5806 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjEwIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:10.5806 | Request validation failed 
+2021-12-07 21:03:10.5806 | Request validation failed 
+2021-12-07 21:03:23.7224 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjIzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:23.7224 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjIzIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:23.7224 | Request validation failed 
+2021-12-07 21:03:23.7224 | Request validation failed 
+2021-12-07 21:03:59.5487 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjU5IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:59.5487 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjAzOjU5IEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:03:59.5724 | Request validation failed 
+2021-12-07 21:03:59.5724 | Request validation failed 
+2021-12-07 21:04:26.2409 | mediator开始 
+2021-12-07 21:04:26.2409 | mediator开始 
+2021-12-07 21:04:26.9717 | mediator过程开始 
+2021-12-07 21:04:26.9717 | mediator过程开始 
+2021-12-07 21:04:26.9717 | mediator结束 
+2021-12-07 21:04:26.9717 | mediator结束 
+2021-12-07 21:05:30.7881 | mediator开始 
+2021-12-07 21:05:30.7881 | mediator开始 
+2021-12-07 21:05:31.0616 | mediator过程开始 
+2021-12-07 21:05:31.0616 | mediator过程开始 
+2021-12-07 21:05:31.0643 | mediator结束 
+2021-12-07 21:05:31.0643 | mediator结束 
+2021-12-07 21:05:42.8349 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjA1OjQyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:05:42.8349 | Invalid redirect_uri: "http://10.0.194.104:5003/swagger/oauth2-redirect.html"
+{"ClientId":"CloudCenter.APi", "ClientName":"CloudCenter.APi Swagger UI", "AllowedRedirectUris":["http:\/\/localhost:5003\/swagger\/oauth2-redirect.html"], "SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{"response_type":"token","client_id":"CloudCenter.APi","redirect_uri":"http:\/\/10.0.194.104:5003\/swagger\/oauth2-redirect.html","scope":"CloudCenter.APi","state":"VHVlIERlYyAwNyAyMDIxIDIxOjA1OjQyIEdNVCswODAwICjkuK3lm73moIflh4bml7bpl7Qp"}} 
+2021-12-07 21:05:42.8632 | Request validation failed 
+2021-12-07 21:05:42.8632 | Request validation failed 
+2021-12-07 21:06:07.4730 | client_id is missing or too long
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{}} 
+2021-12-07 21:06:07.4730 | client_id is missing or too long
+{"SubjectId":"i3yuan", "RequestedScopes":"", "PromptMode":"", "Raw":{}} 
+2021-12-07 21:06:07.4874 | Request validation failed 
+2021-12-07 21:06:07.4874 | Request validation failed 

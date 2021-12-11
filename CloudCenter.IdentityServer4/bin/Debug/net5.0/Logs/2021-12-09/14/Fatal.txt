@@ -1,0 +1,32 @@
+2021-12-09 14:52:47.5491 | Unhandled exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService) 
+ <>c__DisplayClass5_1.<UseMiddleware>b__2 => <no type>.lambda_method548 => IdentityServerMiddleware.Invoke 
+
+2021-12-09 14:52:47.5491 | Unhandled exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService) 
+ <>c__DisplayClass5_1.<UseMiddleware>b__2 => <no type>.lambda_method548 => IdentityServerMiddleware.Invoke 
+
+2021-12-09 14:52:56.7955 | Unhandled exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService) 
+ <>c__DisplayClass5_1.<UseMiddleware>b__2 => <no type>.lambda_method548 => IdentityServerMiddleware.Invoke 
+
+2021-12-09 14:52:56.7955 | Unhandled exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC System.Exception: Found identity scopes and API scopes that use the same names. This is an invalid configuration. Use different names for identity scopes and API scopes. Scopes found: CloudCenter.MVC
+   at IdentityServer4.Stores.IResourceStoreExtensions.Validate(IEnumerable`1 identity, IEnumerable`1 apiResources, IEnumerable`1 apiScopes)
+   at IdentityServer4.Stores.IResourceStoreExtensions.GetAllEnabledResourcesAsync(IResourceStore store)
+   at IdentityServer4.ResponseHandling.DiscoveryResponseGenerator.CreateDiscoveryDocumentAsync(String baseUrl, String issuerUri)
+   at IdentityServer4.Endpoints.DiscoveryEndpoint.ProcessAsync(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService) 
+ <>c__DisplayClass5_1.<UseMiddleware>b__2 => <no type>.lambda_method548 => IdentityServerMiddleware.Invoke 
+

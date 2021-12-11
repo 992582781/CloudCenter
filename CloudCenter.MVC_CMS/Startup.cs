@@ -72,17 +72,16 @@ namespace CloudCenter.MVC_CMS
                   options.Authority = identityUrl.ToString();
                   options.SignedOutRedirectUri = callBackUrl.ToString();
                   options.ClientId = "CloudCenter.MVC";
-                  //options.ClientSecret = "CloudCenter.MVC_Secret";
-                  //options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
-                  //options.Scope.Clear();
-                  //options.Scope.Add("openid");
-                  //options.Scope.Add("profile");
+                  options.ClientSecret = "CloudCenter.MVC_Secret";
+                  options.ResponseType = OpenIdConnectResponseType.CodeIdToken;
+                  options.Scope.Clear();
+                  options.Scope.Add("openid");
+                  options.Scope.Add("profile");
                   options.SaveTokens = true;
                   //为api在使用refresh_token的时候,配置offline_access作用域
-                  //options.GetClaimsFromUserInfoEndpoint = true;
-                  //options.GetClaimsFromUserInfoEndpoint = true;
+                  options.GetClaimsFromUserInfoEndpoint = true;
                   options.RequireHttpsMetadata = false;
-                  //options.Scope.Add("CloudCenter.MVC"); //添加授权资源
+                  options.Scope.Add("CloudCenter.MVC"); //添加授权资源
 
               });
             #endregion

@@ -1,0 +1,2 @@
+2021-12-08 11:27:34.6574 | CorsPolicyService did not allow origin: https://localhost:44306 
+2021-12-08 11:27:34.6574 | CorsPolicyService did not allow origin: https://localhost:44306 

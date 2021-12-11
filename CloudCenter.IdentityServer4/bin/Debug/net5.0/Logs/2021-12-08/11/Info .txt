@@ -1,0 +1,66 @@
+2021-12-08 11:21:41.0575 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:21:41.1297 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:21:41.1563 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:21:41.4490 | Now listening on: http://localhost:5001 
+2021-12-08 11:21:41.4490 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:21:41.4490 | Hosting environment: Development 
+2021-12-08 11:21:41.4490 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:23:34.2804 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:23:34.3259 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:23:34.3259 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:23:34.5082 | Now listening on: http://localhost:5001 
+2021-12-08 11:23:34.5082 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:23:34.5566 | Hosting environment: Development 
+2021-12-08 11:23:34.5566 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:24:21.8433 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:24:21.8995 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:24:21.9084 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:24:22.2093 | Now listening on: http://localhost:5001 
+2021-12-08 11:24:22.2179 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:24:22.2179 | Hosting environment: Development 
+2021-12-08 11:24:22.2179 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:26:55.1265 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:26:55.1915 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:26:55.2024 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:26:55.3830 | Now listening on: http://localhost:5001 
+2021-12-08 11:26:55.3830 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:26:55.3880 | Hosting environment: Development 
+2021-12-08 11:26:55.3880 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:27:26.1952 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:27:26.2568 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:27:26.2668 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:27:26.5757 | Now listening on: http://localhost:5001 
+2021-12-08 11:27:26.5757 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:27:26.5757 | Hosting environment: Development 
+2021-12-08 11:27:26.6123 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:27:34.6790 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 11:29:07.6397 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:29:07.7238 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:29:07.7367 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:29:07.9147 | Now listening on: http://localhost:5001 
+2021-12-08 11:29:07.9147 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:29:07.9187 | Hosting environment: Development 
+2021-12-08 11:29:07.9504 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:30:37.3895 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:30:37.4821 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:30:37.5015 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:30:37.7280 | Now listening on: http://localhost:5001 
+2021-12-08 11:30:37.7280 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:30:37.7320 | Hosting environment: Development 
+2021-12-08 11:30:37.7320 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:55:22.2502 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2021-12-08 11:55:22.3243 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2021-12-08 11:55:22.3243 | Using the default authentication scheme idsrv for IdentityServer 
+2021-12-08 11:55:22.6030 | Now listening on: http://localhost:5001 
+2021-12-08 11:55:22.6150 | Application started. Press Ctrl+C to shut down. 
+2021-12-08 11:55:22.6150 | Hosting environment: Development 
+2021-12-08 11:55:22.6150 | Content root path: D:\Study\CloudCenter\CloudCenter\CloudCenter.IdentityServer4 
+2021-12-08 11:55:42.8322 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 11:55:42.8974 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 11:55:43.0038 | Showing login: User is not authenticated 
+2021-12-08 11:56:15.9725 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 11:56:15.9935 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 11:56:15.9979 | Showing login: User is not authenticated 
+2021-12-08 11:56:45.3712 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2021-12-08 11:56:45.3712 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2021-12-08 11:56:45.3867 | Showing login: User is not authenticated 

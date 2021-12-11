@@ -46,9 +46,9 @@ namespace CloudCenter.MVC.Controllers
             //首先要清除本地的Cookie，这个Cookie的名字要与之前配置(Startup.cs中AddAuthentication方法)的默认方案里的名字一致，这一步就相当于登出MVC客户端。
             //后一行代码的作用是跳转回到Identity Provider，然后用户可以继续登出IDP, 也就是IDP会清除它的Cookie。
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme);
+            await HttpContext.SignOutAsync("oidc");
             var homeUrl = Url.Action(nameof(HomeController.Index), "Home");
-            return new SignOutResult(OpenIdConnectDefaults.AuthenticationScheme,
+            return new SignOutResult("oidc",
                 new AuthenticationProperties { RedirectUri = homeUrl });
         }
 
