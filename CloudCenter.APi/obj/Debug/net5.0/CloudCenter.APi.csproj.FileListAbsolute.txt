@@ -146,3 +146,4 @@ D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.dll
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\ref\CloudCenter.APi.dll
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.pdb
 D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.genruntimeconfig.cache
+D:\WorkSelf\CloudCenter\CloudCenter.APi\obj\Debug\net5.0\CloudCenter.APi.csproj.AssemblyReference.cache

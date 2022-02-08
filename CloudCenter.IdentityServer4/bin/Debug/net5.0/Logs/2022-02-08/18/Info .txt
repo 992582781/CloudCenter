@@ -1,0 +1,31 @@
+2022-02-08 18:48:40.0934 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2022-02-08 18:48:46.4692 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2022-02-08 18:48:48.5004 | Using the default authentication scheme idsrv for IdentityServer 
+2022-02-08 18:48:50.6997 | Now listening on: http://localhost:5001 
+2022-02-08 18:49:10.2352 | Starting IdentityServer4 version 4.1.2+997a6cdd643e46cd5762b710c4ddc43574cbec2e 
+2022-02-08 18:49:16.5479 | You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2022-02-08 18:49:18.5838 | Using the default authentication scheme idsrv for IdentityServer 
+2022-02-08 18:49:20.7683 | Now listening on: http://localhost:5001 
+2022-02-08 18:49:22.8264 | Application started. Press Ctrl+C to shut down. 
+2022-02-08 18:49:24.8348 | Hosting environment: Development 
+2022-02-08 18:49:26.8636 | Content root path: D:\WorkSelf\CloudCenter\CloudCenter.IdentityServer4 
+2022-02-08 18:49:51.7391 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2022-02-08 18:49:53.9821 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2022-02-08 18:49:56.2574 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2022-02-08 18:49:58.3414 | Showing login: User is not authenticated 
+2022-02-08 18:50:12.8810 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback 
+2022-02-08 18:50:15.2975 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2022-02-08 18:50:17.3783 | Token request validation success, {"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "GrantType":"authorization_code", "AuthorizationCode":"****2504", "RefreshToken":"********", "Raw":{"client_id":"CloudCenter.MVC","client_secret":"***REDACTED***","code":"841E892401ED10CB67329C075C08EEA33E007FFC9B604DC81EEFC642FCFD2504","grant_type":"authorization_code","redirect_uri":"http:\/\/localhost:5002\/signin-oidc"}} 
+2022-02-08 18:50:19.4716 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2022-02-08 18:50:21.5352 | Profile service returned the following claim types: sub auth_time idp name name given_name family_name id website UserID amr 
+2022-02-08 18:51:10.5748 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration 
+2022-02-08 18:51:12.7851 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks 
+2022-02-08 18:51:15.0195 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2022-02-08 18:51:17.2194 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token 
+2022-02-08 18:51:19.2245 | Token request validation success, {"ClientId":"CloudCenter.MVC", "ClientName":"CloudCenter.MVC", "GrantType":"authorization_code", "AuthorizationCode":"****2B9E", "RefreshToken":"********", "Raw":{"client_id":"CloudCenter.MVC","client_secret":"***REDACTED***","code":"DFF3D5ACF94DE60B99F59F13ECFCAFFF7AFB0BCBDEA3B1DFD71FE1922F742B9E","grant_type":"authorization_code","redirect_uri":"http:\/\/localhost:5005\/signin-oidc"}} 
+2022-02-08 18:51:21.3045 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo 
+2022-02-08 18:51:23.3179 | Profile service returned the following claim types: sub auth_time idp name name given_name family_name id website UserID amr 
+2022-02-08 18:52:09.3805 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2022-02-08 18:52:11.3987 | Showing login: User is not authenticated 
+2022-02-08 18:52:17.0687 | Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize 
+2022-02-08 18:52:19.0850 | Showing login: User is not authenticated 

@@ -37,3 +37,4 @@ D:\WorkSelf\CloudCenter\JavaScriptClient\obj\Debug\net5.0\JavaScriptClient.dll
 D:\WorkSelf\CloudCenter\JavaScriptClient\obj\Debug\net5.0\ref\JavaScriptClient.dll
 D:\WorkSelf\CloudCenter\JavaScriptClient\obj\Debug\net5.0\JavaScriptClient.pdb
 D:\WorkSelf\CloudCenter\JavaScriptClient\obj\Debug\net5.0\JavaScriptClient.genruntimeconfig.cache
+D:\WorkSelf\CloudCenter\JavaScriptClient\obj\Debug\net5.0\JavaScriptClient.csproj.AssemblyReference.cache

@@ -21,3 +21,4 @@ D:\WorkSelf\CloudCenter\CloudCenter.UnitOfWork\obj\Debug\net5.0\CloudCenter.Unit
 D:\WorkSelf\CloudCenter\CloudCenter.UnitOfWork\obj\Debug\net5.0\CloudCenter.UnitOfWork.dll
 D:\WorkSelf\CloudCenter\CloudCenter.UnitOfWork\obj\Debug\net5.0\ref\CloudCenter.UnitOfWork.dll
 D:\WorkSelf\CloudCenter\CloudCenter.UnitOfWork\obj\Debug\net5.0\CloudCenter.UnitOfWork.pdb
+D:\WorkSelf\CloudCenter\CloudCenter.UnitOfWork\obj\Debug\net5.0\CloudCenter.UnitOfWork.csproj.AssemblyReference.cache
